@@ -13,8 +13,32 @@ puis coller :
 julienchr1/the-agency-plugins
 ```
 
-Les plugins installés depuis une place de marché se mettent à jour depuis ce
-dépôt.
+### Comment les mises à jour se propagent
+
+La synchronisation automatique **ne se déclenche pas sur un push direct**. Le
+centre d'aide Claude est explicite :
+
+> *Once enabled, automatic sync runs when a pull request that includes a plugin
+> version bump is merged to the repository's default branch.*
+> *Direct pushes to the default branch don't trigger a sync.*
+> *Syncs can take up to 30 minutes depending on the number of plugins.*
+
+Le workflow à suivre pour publier une modification est donc :
+
+1. une branche ;
+2. un **bump de `version`** dans `<plugin>/.claude-plugin/plugin.json` ;
+3. une pull request ;
+4. une fusion sur `main`.
+
+Le bump de version n'est pas cosmétique : côté compte la synchro le réclame
+comme déclencheur, et côté CLI local `claude plugin update` compare ce champ —
+à version identique il ne recopie rien.
+
+En cas de doute, le refresh manuel reste fiable (~20 s) :
+*Plugins → Ajouter → Gérer les marketplaces → ⋯ → Rechercher des mises à jour*.
+
+Référence : <https://support.claude.com/en/articles/13837433-manage-plugins-for-your-organization>
+(rédigé pour les organisations ; même interface pour un compte personnel).
 
 ### Claude Code (local)
 
