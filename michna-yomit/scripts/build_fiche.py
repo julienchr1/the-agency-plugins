@@ -34,12 +34,36 @@ MOIS = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet",
 JOURS = {0: "lundi", 1: "mardi", 2: "mercredi", 3: "jeudi", 4: "vendredi",
          5: "samedi", 6: "dimanche"}
 
+# Chemins macOS (application) puis binaires a chercher dans le PATH. Les
+# conteneurs Linux — dont celui de Claude Cowork — ont Chromium dans le PATH
+# et aucun /Applications : ne chercher que sur macOS faisait silencieusement
+# tomber la generation sur wkhtmltopdf, qui tronque l'hebreu.
 CHROME_PATHS = [
     "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
     "/Applications/Chromium.app/Contents/MacOS/Chromium",
     "/Applications/Brave Browser.app/Contents/MacOS/Brave Browser",
     "/Applications/Microsoft Edge.app/Contents/MacOS/Microsoft Edge",
 ]
+CHROME_BINARIES = [
+    "chromium", "chromium-browser", "google-chrome", "google-chrome-stable",
+    "chrome", "brave-browser", "microsoft-edge", "headless_shell",
+]
+
+
+def find_chrome() -> str | None:
+    """Premier navigateur disponible : $MICHNA_CHROME, une app macOS, ou un
+    binaire du PATH (Linux)."""
+    env = os.environ.get("MICHNA_CHROME")
+    if env and (os.path.exists(env) or shutil.which(env)):
+        return env if os.path.exists(env) else shutil.which(env)
+    for p in CHROME_PATHS:
+        if os.path.exists(p):
+            return p
+    for b in CHROME_BINARIES:
+        found = shutil.which(b)
+        if found:
+            return found
+    return None
 
 
 def slugify(ref: str) -> str:
@@ -214,6 +238,22 @@ a { color: #1a5a8a; text-decoration: none; }
 """
 
 
+EMPH_STRONG = re.compile(r"\*\*(?=\S)(.+?)(?<=\S)\*\*", re.S)
+EMPH_ITALIC = re.compile(r"(?<!\*)\*(?=\S)([^*]+?)(?<=\S)\*(?!\*)", re.S)
+
+
+def rich(s) -> str:
+    """Echappe le HTML puis rend l'emphase Markdown. Le francais des fiches
+    est redige avec la convention Markdown (`*terme*` pour un terme
+    translittere) : sans cette conversion, les asterisques s'affichaient
+    litteralement dans le HTML et le PDF."""
+    import html as H
+    out = H.escape(s or "")
+    out = EMPH_STRONG.sub(r"<strong>\1</strong>", out)
+    out = EMPH_ITALIC.sub(r"<em>\1</em>", out)
+    return out
+
+
 def build_html(src: dict, fr: dict) -> str:
     import html as H
     e = H.escape
@@ -231,7 +271,7 @@ def build_html(src: dict, fr: dict) -> str:
         P.append(f"<div><b>Programme</b> : jour {day['day']} / {cal['n_days']} — "
                  f"{e(date_fr(day['date']))}</div>")
     if fr.get("titre_court"):
-        P.append(f"<div><b>Sujet</b> : {e(fr['titre_court'])}</div>")
+        P.append(f"<div><b>Sujet</b> : {rich(fr['titre_court'])}</div>")
     P.append("</div>")
 
     P.append("<h2>1. Texte hébreu</h2>")
@@ -240,15 +280,15 @@ def build_html(src: dict, fr: dict) -> str:
 
     P.append("<h2>2. Traduction française</h2>")
     for para in fr["traduction"].split("\n\n"):
-        P.append(f"<p>{e(para)}</p>")
+        P.append(f"<p>{rich(para)}</p>")
 
     if fr.get("explication"):
         P.append("<h2>3. Explication</h2>")
         for para in fr["explication"]:
-            P.append(f"<p>{e(para)}</p>")
+            P.append(f"<p>{rich(para)}</p>")
     if fr.get("contexte"):
         P.append("<h3>Contexte</h3>")
-        P.append(f"<p>{e(fr['contexte'])}</p>")
+        P.append(f"<p>{rich(fr['contexte'])}</p>")
 
     secs = src["bartenura"]["sections"]
     frb = {int(b["n"]): b for b in fr.get("bartenura", [])}
@@ -264,9 +304,9 @@ def build_html(src: dict, fr: dict) -> str:
             P.append(f"<h3>Section {n}</h3>")
         P.append(f'<div class="he">{e(s["hebreu"])}</div>')
         P.append(f'<div class="fr"><b>Français</b> — '
-                 f'{e(frb.get(n, {}).get("traduction", ""))}</div>')
+                 f'{rich(frb.get(n, {}).get("traduction", ""))}</div>')
         if frb.get(n, {}).get("note"):
-            P.append(f'<div class="note">Note : {e(frb[n]["note"])}</div>')
+            P.append(f'<div class="note">Note : {rich(frb[n]["note"])}</div>')
         P.append("</div>")
 
     tal = src["talmud"]
@@ -284,7 +324,7 @@ def build_html(src: dict, fr: dict) -> str:
     if fr.get("points_essentiels"):
         P.append("<h2>6. Points essentiels</h2><ul>")
         for p in fr["points_essentiels"]:
-            P.append(f"<li>{e(p)}</li>")
+            P.append(f"<li>{rich(p)}</li>")
         P.append("</ul>")
 
     P.append('<div class="footer">')
@@ -307,7 +347,7 @@ def build_html(src: dict, fr: dict) -> str:
 # -------------------------------------------------------------------------- PDF
 
 def html_to_pdf(html_path: str, pdf_path: str) -> tuple[bool, str]:
-    chrome = next((p for p in CHROME_PATHS if os.path.exists(p)), None)
+    chrome = find_chrome()
     if chrome:
         # Profil persistant hors du plugin : le premier lancement de Chrome
         # coute environ une minute, le reutiliser accelere les suivants. Il

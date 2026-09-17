@@ -1,6 +1,6 @@
 {
   "name": "michna-yomit",
-  "version": "0.3.2",
+  "version": "0.4.0",
   "description": "Étude quotidienne de la Michna, entièrement sourcée sur Sefaria. Génère pour chaque michna une fiche complète (texte hébreu intégral, traduction et explication en français, la totalité des sections du Bartenura en hébreu avec leur traduction française, renvois vers le daf du Talmud et les pages « background » de dafyomi.co.il), en Markdown et en PDF. Tient le calendrier du programme (2 michnaiot par jour, 63 traités, 4192 michnaiot), répond à « où en est-on », compose le message WhatsApp quotidien, et gère les événements du cycle : début de traité, fin de traité / siyoum, monitoring hebdomadaire.",
   "author": {
     "name": "Julien Chriqui"
