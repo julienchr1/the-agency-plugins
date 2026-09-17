@@ -1,0 +1,26 @@
+{
+  "name": "Michna Yomit — cycle Zeva'him",
+  "start_date": "2025-07-16",
+  "start_ref": "Mishnah Zevachim 1:1",
+  "per_day": 2,
+  "skip": "none",
+  "offset_mishnayot": -1,
+  "_skip_options": [
+    "none",
+    "shabbat",
+    "shabbat+yomtov"
+  ],
+  "calibration": {
+    "date": "2026-09-17",
+    "expected_first_ref": "Mishnah Oholot 2:4",
+    "source": "https://www.dafyomi.co.il/calendars/myomi/todays_mishnah.php",
+    "source_label": "16e cycle Mishnah Yomi, Dafyomi Advancement Forum",
+    "verified_on": "2026-09-17",
+    "note": "Le decoupage des michnaiot differe d'une edition a l'autre. Sefaria compte une michna de plus que l'edition suivie par dafyomi.co.il entre Zeva'him 1:1 et Ohalot 2 : offset_mishnayot = -1 recale la sequence sur le cycle officiel."
+  },
+  "notes": [
+    "Programme declare : demarre le 16 juillet 2025 (un mercredi) par Zeva'him 1:1, 2 michnaiot par jour, tous les jours Chabbat inclus.",
+    "Ordre du cycle : depuis start_ref on suit l'ordre canonique du Shas en bouclant, jusqu'a couvrir les 63 traites.",
+    "Ce programme est aligne, a une michna pres, sur le 16e cycle Mishnah Yomi de dafyomi.co.il, entre dans Zeva'him a la meme periode."
+  ]
+}

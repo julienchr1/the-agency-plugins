@@ -1,0 +1,83 @@
+{
+  "ref": "Mishnah Oholot 2:4",
+  "ref_he": "משנה אהלות 2:4",
+  "tractate": "Mishnah Oholot",
+  "tractate_fr": "Ohalot",
+  "seder_fr": "Taharot",
+  "sources": {
+    "michna": "https://www.sefaria.org/Mishnah_Oholot_2.4",
+    "bartenura": "https://www.sefaria.org/Bartenura_on_Mishnah_Oholot_2.4",
+    "explication_kulp": "https://www.sefaria.org/English_Explanation_of_Mishnah_Oholot_2.4"
+  },
+  "michna": {
+    "hebreu": "הַגּוֹלֵל וְהַדּוֹפֵק מְטַמְּאִין בְּמַגָּע וּבְאֹהֶל, וְאֵינָן מְטַמְּאִין בְּמַשָּׂא. רַבִּי אֱלִיעֶזֶר אוֹמֵר, מְטַמְּאִין בְּמַשָּׂא. רַבִּי יְהוֹשֻׁעַ אוֹמֵר, אִם יֵשׁ תַּחְתֵּיהֶן עֲפַר קְבָרוֹת, מְטַמְּאִין בְּמַשָּׂא. וְאִם לָאו, אֵינָן מְטַמְּאִין בְּמַשָּׂא. אֵיזֶהוּ הַדּוֹפֵק, אֶת שֶׁהַגּוֹלֵל נִשְׁעָן עָלָיו. אֲבָל דּוֹפֵק דּוֹפְקִין, טָהוֹר:",
+    "anglais_davidson": "The covering stone and the buttressing stone [of a grave] defile by contact and overshadowing but not by carriage. Rabbi Eliezer says: they do defile by carriage. Rabbi Joshua says: if there is grave dust beneath them, they defile by carriage, but if not they do not defile by carriage. What is the buttressing stone? That upon which the covering stone is supported. But the stone that serves as buttress to the buttressing stone is clean.",
+    "anglais_kulp": "The covering stone and the buttressing stone [of a grave] defile by contact and overshadowing but not by carriage. Rabbi Eliezer says: they do defile by carriage. Rabbi Joshua says: if there is grave dust beneath them, they defile by carriage, but if not they do not defile by carriage. What is the buttressing stone? That upon which the covering stone is supported. But the stone that serves as buttress to the buttressing stone is clean."
+  },
+  "explication_kulp": [
+    "Introduction\nIn mishnaic times burials were often done in caves. Our mishnah discusses the stones used to cover up the graves.",
+    "The covering stone and the buttressing stone [of a grave] defile by contact and overshadowing but not by carriage. Rabbi Eliezer says: they do defile by carriage. Rabbi Joshua says: if there is grave dust beneath them, they defile by carriage, but if not they do not defile by carriage. The covering stone is the stone rolled over the grave to seal it up. It transmits impurity by overshadowing and contact but not by carriage, probably because it is not something that is generally carried. Note that impurity by contact is stated explicitly in Numbers 19:16. However, Rabbi Eliezer says it does defile by carriage. Rabbi Joshua notes that if there is grave dust underneath them, then they do defile by carriage because the grave dust is assumed to contain dust that originates with the dead body. But if there is no grave dust, the stones themselves do not transmit impurity through carriage.",
+    "What is the buttressing stone? That upon which the covering stone is supported. But the stone that serves as buttress to the buttressing stone is clean. The buttressing stone is that upon which the covering stone rests. Some explain that there were two such stones, one on each side. These stones themselves are governed by the same rule that governs the actual covering stone. But the stones that support the supporting stones are clean. They are far enough removed from the grave that they don't count as the grave itself."
+  ],
+  "bartenura": {
+    "ref": "Bartenura on Mishnah Oholot 2:4",
+    "n_sections": 6,
+    "sections": [
+      {
+        "n": 1,
+        "lemme_he": "הַגּוֹלֵל",
+        "hebreu": "אֶבֶן גְּדוֹלָה וּרְחָבָה שֶׁסּוֹתְמִים בָּהּ פִּי הַקֶּבֶר מִלְּמַעְלָה. מִלְּשׁוֹן וְגָלֲלוּ אֶת הָאֶבֶן (בראשית כט):",
+        "lemme_en": "הגולל (the stone placed on top of a burial cave/top-stone)",
+        "anglais": "a large and wide stone that they seal/stop up the mouth of the grave from above. [This is] from the language of (Genesis 29:3): “[When the flocks were gathered there,] the stone would be rolled [from the mouth of the well and the sheep watered.]”"
+      },
+      {
+        "n": 2,
+        "lemme_he": "וְהַדּוֹפֵק",
+        "hebreu": "שְׁתֵּי אֲבָנִים גְּדוֹלוֹת אַחַת מִצַּד זֶה וְאַחַת מִצַּד זֶה שֶׁהַגּוֹלֵל נִשְׁעָן עֲלֵיהֶן:",
+        "lemme_en": "",
+        "anglais": "דופק (the frame supporting the movable stone of a tomb -against which the turning body knocks) -two large stones, one from this side and the another from the other side, so that the stone placed on top of a burial cave rests upon them."
+      },
+      {
+        "n": 3,
+        "lemme_he": "מְטַמְּאִין בְּמַגָּע וּבְאֹהֶל",
+        "hebreu": "דִּכְתִיב (במדבר יט) וְעַל הַנּוֹגֵעַ בָּעֶצֶם אוֹ בֶחָלָל אוֹ בַמֵּת אוֹ בַקָּבֶר, מַה מֵּת מְטַמֵּא בְמַגָּע וּבְאֹהֶל, אַף קֶבֶר מְטַמֵּא בְמַגָּע וּבְאֹהֶל:",
+        "lemme_en": "מטמאין במגע ובאהל",
+        "anglais": "as it is written (Numbers 19:18): “or on him who touched the bones or the person who was killed or died naturally or the grave,” just as the corpse defiles through contact and through overshadowing in a tent, even the grave defiles through contact and through overshadowing in a tent."
+      },
+      {
+        "n": 4,
+        "lemme_he": "וְאֵינָן מְטַמְּאִין בְּמַשָּׂא",
+        "hebreu": "דְּדָרְשִׁינַן וְכָל אֲשֶׁר יִגַּע עַל פְּנֵי הַשָּׂדֶה (שם), לְרַבּוֹת גּוֹלֵל וְדוֹפֵק, וּכְתִיב וְכָל אֲשֶׁר יִגַּע, מִשּׁוּם מַגָּע הוּא מְטַמֵּא וְאֵינוֹ מְטַמֵּא מִשּׁוּם מַשָּׂא:",
+        "lemme_en": "",
+        "anglais": "ואינן מטמאין במשא that we expound (Numbers 19:16): “And in the open, anyone who touches a person,” to include the stone placed on top of the burial cave and the frame supporting the movable stone of a tomb (i.e., גולל ודופק), and it is written: (Numbers 19:16): “anyone who touches,” because of contact he defiles, but he does not defile because of carrying"
+      },
+      {
+        "n": 5,
+        "lemme_he": "אִם יֵשׁ תַּחְתֵּיהֶן עֲפַר קְבָרוֹת",
+        "hebreu": "מְטַמֵּא כְּשֶׁמְּסִיטָן, מִשּׁוּם עָפָר הַנִּסָּט עִמָּהֶן דִּמְטַמֵּא בְּמַשָּׂא מִשּׁוּם תְּפוּסָה שֶׁל מֵת. וַהֲלָכָה כְּרַבִּי יְהוֹשֻׁעַ:",
+        "lemme_en": "אם יש תחתיהן עפר קברות",
+        "anglais": "which defiles through movement, because of the dirt that is moved with them when it defiles through carrying, because of the holding of the corpse. And the Halakha is according to Rabbi Yehoshua."
+      },
+      {
+        "n": 6,
+        "lemme_he": "דּוֹפֵק דּוֹפְקִין",
+        "hebreu": "אֵצֶל אֶבֶן הַדּוֹפֵק מַנִּיחִין לִפְעָמִים אֶבֶן אַחֶרֶת לְהַחֲזִיקָהּ וְאֵין הַגּוֹלֵל נִשְׁעָן עָלֶיהָ, וְהִיא נִקְרֵאת דּוֹפֵק דּוֹפְקִין:",
+        "lemme_en": "דופק דופקין (but the frame supporting the frame stones)",
+        "anglais": "near the frame supporting the movable stone of a tomb, they sometimes place another stone to support it and the stone placed on top of the burial cave is not leaning upon it, and this called דופק דופקין/the buttress/frame stone of buttressing stones."
+      }
+    ]
+  },
+  "talmud": {
+    "refs": [
+      "Shabbat 152b"
+    ],
+    "dafyomi": [
+      {
+        "ref": "Shabbat 152b",
+        "daf": 152,
+        "background_url": "https://www.dafyomi.co.il/shabbos/backgrnd/sh-in-152.htm",
+        "insights_url": "https://www.dafyomi.co.il/shabbos/insites/sh-dt-152.htm"
+      }
+    ]
+  }
+}

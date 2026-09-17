@@ -1,0 +1,35 @@
+{
+  "ref": "Mishnah Oholot 2:5",
+  "titre_court": "Les sources d'impureté qui perdent leur statut si la mesure minimale n'est pas atteinte",
+  "traduction": "Voici ce qui est pur si la quantité est incomplète : un volume d'olive de chair de cadavre ; un volume d'olive de *nétsel* (liquide de décomposition) ; une cuillerée pleine de *rakav* (poussière de décomposition) ; un *revi'it* de sang ; un os de la taille d'un grain d'orge ; et un membre détaché d'un vivant dont l'os est incomplet.",
+  "contexte": "Le chapitre a énuméré les différentes sources d'impureté issues d'un cadavre, chacune avec sa mesure minimale. Cette michna précise ce qui se passe lorsque la mesure n'est pas atteinte.",
+  "explication": [
+    "Chacune des sources listées n'est impure qu'à partir d'une quantité déterminée : en deçà, elle n'est pas simplement d'un degré moindre — elle est entièrement pure. C'est un point de méthode : pour ces réalités, la mesure n'est pas un seuil de gravité mais la condition même du statut d'impureté.",
+    "Le Bartenura justifie deux de ces mesures par la formation de l'embryon : le volume d'une olive, parce que telle est la dimension initiale de la formation de l'être humain ; et le revi'it de sang, parce qu'un nouveau-né n'a pas moins d'un revi'it de sang à l'origine de sa constitution. La mesure n'est donc pas arbitraire : elle correspond au minimum à partir duquel il y a « de l'humain ».",
+    "Le dernier cas est traité à part. Un membre détaché d'un vivant ne rend impur qu'en tant que membre entier : si son os est entamé, même très peu — le Bartenura prend l'exemple d'un gros fémur —, il ne rend plus impur à ce titre. En revanche, s'il ne manque que de la chair, il reste impur tant que la perte ne dépasse pas ce que la plaie pourrait reconstituer. Un membre détaché d'un cadavre, lui, suit une autre règle : la chair qui s'en sépare rend impure dès un volume d'olive, et un os dès la taille d'un grain d'orge.",
+    "La michna s'oppose ainsi implicitement au crâne et aux vertèbres évoqués plus haut dans le chapitre, qui demeurent impurs même incomplets."
+  ],
+  "bartenura": [
+    {
+      "n": 1,
+      "traduction": "Car ils n'atteignent pas la mesure requise."
+    },
+    {
+      "n": 2,
+      "traduction": "Car telle est la dimension initiale de la formation de l'être humain : un volume d'olive."
+    },
+    {
+      "n": 3,
+      "traduction": "Puisqu'à l'origine de la constitution d'un nouveau-né, il n'y a pas moins d'un revi'it de sang."
+    },
+    {
+      "n": 4,
+      "traduction": "Même un gros fémur auquel il manque une part quelconque de l'os ne rend pas impur au titre de membre détaché d'un vivant. Mais s'il ne manque que de la chair, il rend toujours impur, jusqu'à ce que la perte excède ce que la plaie pourrait reconstituer. Quant à un membre détaché d'un cadavre : la chair qui s'en sépare est impure dès un volume d'olive, et l'os qui s'en sépare dès la taille d'un grain d'orge."
+    }
+  ],
+  "points_essentiels": [
+    "Six sources d'impureté cadavérique qui, en deçà de leur mesure minimale, ne sont pas « moins impures » mais totalement pures.",
+    "Le Bartenura rattache le volume d'olive et le revi'it de sang à la formation initiale de l'être humain — la mesure marque le seuil de l'humain.",
+    "Un membre détaché d'un vivant perd son statut dès que l'os est entamé ; s'il ne manque que de la chair, il reste impur."
+  ]
+}

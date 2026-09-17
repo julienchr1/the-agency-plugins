@@ -1,0 +1,16 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "the-agency",
+  "description": "Plugins développés par The Agency",
+  "owner": {
+    "name": "Julien Chriqui",
+    "url": "https://github.com/julienchr1/the-agency-plugins"
+  },
+  "plugins": [
+    {
+      "name": "michna-yomit",
+      "source": "./michna-yomit",
+      "description": "Étude quotidienne de la Michna sourcée sur Sefaria : fiche complète par michna (texte hébreu intégral, traduction et explication en français, intégralité des sections du Bartenura traduites) en Markdown et PDF, calendrier du programme sur 63 traités, message WhatsApp quotidien, jalons de traité et monitoring hebdomadaire."
+    }
+  ]
+}

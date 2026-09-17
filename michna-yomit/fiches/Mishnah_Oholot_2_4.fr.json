@@ -1,0 +1,44 @@
+{
+  "ref": "Mishnah Oholot 2:4",
+  "titre_court": "La pierre de fermeture du tombeau (golel) et sa pierre d'appui (dofek)",
+  "traduction": "Le *golel* (la pierre qui ferme le tombeau) et le *dofek* (la pierre sur laquelle elle s'appuie) transmettent l'impureté par contact et par recouvrement, mais non par port. Rabbi Eliézer dit : ils la transmettent aussi par port. Rabbi Yehochoua dit : s'il y a sous eux de la terre de sépulture, ils la transmettent par port ; sinon, ils ne la transmettent pas par port. Qu'est-ce que le *dofek* ? Celle sur laquelle le *golel* s'appuie. Mais le *dofek des dofkin* — la pierre qui soutient la pierre d'appui — est pur.",
+  "contexte": "À l'époque de la Michna, on enterrait fréquemment dans des cavernes funéraires, fermées par une grande pierre roulée devant l'ouverture et calée par une ou deux pierres latérales. Ce chapitre d'Ohalot détermine dans quelle mesure ces pierres partagent le statut d'impureté du tombeau lui-même.",
+  "explication": [
+    "L'impureté d'un mort se transmet de trois manières : par contact (maga), par recouvrement sous un même toit (ohel), et par port (massa) — lorsqu'on déplace l'objet impur sans le toucher. La michna statue que le golel et le dofek, bien qu'ils ne soient pas le cadavre, sont assimilés au tombeau et transmettent l'impureté par contact et par recouvrement. Le Bartenura rattache cela au verset de Nombres 19:18, qui met sur le même plan « l'os, le tué, le mort ou le tombeau » : de même que le mort rend impur par contact et par recouvrement, le tombeau aussi.",
+    "En revanche, ces pierres ne transmettent pas l'impureté par port. Le Bartenura l'appuie sur Nombres 19:16 : le verset dit « quiconque touche » — c'est le contact qui est la cause de l'impureté, non le déplacement. La raison de fond est qu'une pierre de cette taille n'est pas un objet destiné à être porté.",
+    "Deux Tannaïm contestent ce point. Rabbi Eliézer étend l'impureté au port sans condition. Rabbi Yehochoua adopte une position intermédiaire : si de la terre de sépulture se trouve sous les pierres, le déplacement entraîne aussi celui de cette terre, laquelle rend bien impur par port au titre de la « tefoussa » du mort (la terre qui l'accompagne). Le Bartenura tranche : la halakha suit Rabbi Yehochoua.",
+    "La michna délimite enfin l'extension de ce statut. Le dofek est la pierre qui porte directement le golel — selon le Bartenura, il y en avait souvent deux, une de chaque côté. Mais une pierre ajoutée pour caler le dofek, et sur laquelle le golel ne repose pas, est appelée dofek dofkin : trop éloignée du tombeau, elle ne participe plus de son statut et reste pure."
+  ],
+  "bartenura": [
+    {
+      "n": 1,
+      "traduction": "Une grande et large pierre par laquelle on obture l'entrée du tombeau par le haut. Le terme vient de « et ils roulaient (ve-galelou) la pierre » (Genèse 29:3)."
+    },
+    {
+      "n": 2,
+      "traduction": "Deux grandes pierres, une de chaque côté, sur lesquelles le golel s'appuie.",
+      "note": "Le mot dofek désigne le cadre qui soutient la pierre mobile du tombeau."
+    },
+    {
+      "n": 3,
+      "traduction": "Car il est écrit (Nombres 19:18) : « et sur celui qui touche l'os, ou le tué, ou le mort, ou le tombeau » — de même que le mort rend impur par contact et par recouvrement, le tombeau aussi rend impur par contact et par recouvrement."
+    },
+    {
+      "n": 4,
+      "traduction": "Car nous interprétons « et quiconque touche, en plein champ » (Nombres 19:16) comme incluant le golel et le dofek ; et puisqu'il est écrit « quiconque touche », c'est au titre du contact qu'il rend impur, et non au titre du port."
+    },
+    {
+      "n": 5,
+      "traduction": "Il rend alors impur lorsqu'on les déplace, à cause de la terre déplacée avec eux, laquelle rend impur par port au titre de la tefoussa du mort. Et la halakha est selon Rabbi Yehochoua."
+    },
+    {
+      "n": 6,
+      "traduction": "À côté de la pierre d'appui, on place parfois une autre pierre pour la maintenir, sur laquelle le golel ne s'appuie pas : celle-là est appelée dofek dofkin."
+    }
+  ],
+  "points_essentiels": [
+    "Le golel (pierre de fermeture) et le dofek (pierre d'appui) sont assimilés au tombeau : impureté par contact et par recouvrement, mais pas par port.",
+    "Rabbi Yehochoua nuance : s'il y a de la terre de sépulture dessous, il y a aussi impureté par port — et c'est la halakha (Bartenura).",
+    "Le dofek dofkin, pierre qui ne porte pas directement le golel, est trop éloigné du tombeau : il est pur."
+  ]
+}

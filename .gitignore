@@ -1,0 +1,6 @@
+# données de travail, jamais versionnées
+**/data/cache/
+**/.chrome-profile/
+.DS_Store
+# artefact de packaging, régénérable
+*.plugin

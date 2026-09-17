@@ -1,0 +1,1289 @@
+{
+  "source": "https://www.sefaria.org/api/shape/<traite>",
+  "generated_by": "scripts/build_index.py",
+  "n_tractates": 63,
+  "n_mishnayot_total": 4192,
+  "tractates": [
+    {
+      "title": "Mishnah Berakhot",
+      "he_title": "משנה ברכות",
+      "name_fr": "Berakhot",
+      "seder": "Zeraim",
+      "seder_fr": "Zeraïm",
+      "chapters": [
+        5,
+        8,
+        6,
+        7,
+        5,
+        8,
+        5,
+        8,
+        5
+      ],
+      "n_chapters": 9,
+      "n_mishnayot": 57,
+      "bartenura_title": "Bartenura on Mishnah Berakhot"
+    },
+    {
+      "title": "Mishnah Peah",
+      "he_title": "משנה פאה",
+      "name_fr": "Péa",
+      "seder": "Zeraim",
+      "seder_fr": "Zeraïm",
+      "chapters": [
+        6,
+        8,
+        8,
+        11,
+        8,
+        11,
+        8,
+        9
+      ],
+      "n_chapters": 8,
+      "n_mishnayot": 69,
+      "bartenura_title": "Bartenura on Mishnah Peah"
+    },
+    {
+      "title": "Mishnah Demai",
+      "he_title": "משנה דמאי",
+      "name_fr": "Demaï",
+      "seder": "Zeraim",
+      "seder_fr": "Zeraïm",
+      "chapters": [
+        4,
+        5,
+        6,
+        7,
+        11,
+        12,
+        8
+      ],
+      "n_chapters": 7,
+      "n_mishnayot": 53,
+      "bartenura_title": "Bartenura on Mishnah Demai"
+    },
+    {
+      "title": "Mishnah Kilayim",
+      "he_title": "משנה כלאים",
+      "name_fr": "Kilayim",
+      "seder": "Zeraim",
+      "seder_fr": "Zeraïm",
+      "chapters": [
+        9,
+        11,
+        7,
+        9,
+        8,
+        9,
+        8,
+        6,
+        10
+      ],
+      "n_chapters": 9,
+      "n_mishnayot": 77,
+      "bartenura_title": "Bartenura on Mishnah Kilayim"
+    },
+    {
+      "title": "Mishnah Sheviit",
+      "he_title": "משנה שביעית",
+      "name_fr": "Chevi'it",
+      "seder": "Zeraim",
+      "seder_fr": "Zeraïm",
+      "chapters": [
+        8,
+        10,
+        10,
+        10,
+        9,
+        6,
+        7,
+        11,
+        9,
+        9
+      ],
+      "n_chapters": 10,
+      "n_mishnayot": 89,
+      "bartenura_title": "Bartenura on Mishnah Sheviit"
+    },
+    {
+      "title": "Mishnah Terumot",
+      "he_title": "משנה תרומות",
+      "name_fr": "Teroumot",
+      "seder": "Zeraim",
+      "seder_fr": "Zeraïm",
+      "chapters": [
+        10,
+        6,
+        9,
+        13,
+        9,
+        6,
+        7,
+        12,
+        7,
+        12,
+        10
+      ],
+      "n_chapters": 11,
+      "n_mishnayot": 101,
+      "bartenura_title": "Bartenura on Mishnah Terumot"
+    },
+    {
+      "title": "Mishnah Maasrot",
+      "he_title": "משנה מעשרות",
+      "name_fr": "Maasrot",
+      "seder": "Zeraim",
+      "seder_fr": "Zeraïm",
+      "chapters": [
+        8,
+        8,
+        10,
+        6,
+        8
+      ],
+      "n_chapters": 5,
+      "n_mishnayot": 40,
+      "bartenura_title": "Bartenura on Mishnah Maasrot"
+    },
+    {
+      "title": "Mishnah Maaser Sheni",
+      "he_title": "משנה מעשר שני",
+      "name_fr": "Maaser Cheni",
+      "seder": "Zeraim",
+      "seder_fr": "Zeraïm",
+      "chapters": [
+        7,
+        10,
+        13,
+        12,
+        15
+      ],
+      "n_chapters": 5,
+      "n_mishnayot": 57,
+      "bartenura_title": "Bartenura on Mishnah Maaser Sheni"
+    },
+    {
+      "title": "Mishnah Challah",
+      "he_title": "משנה חלה",
+      "name_fr": "'Halla",
+      "seder": "Zeraim",
+      "seder_fr": "Zeraïm",
+      "chapters": [
+        9,
+        8,
+        10,
+        11
+      ],
+      "n_chapters": 4,
+      "n_mishnayot": 38,
+      "bartenura_title": "Bartenura on Mishnah Challah"
+    },
+    {
+      "title": "Mishnah Orlah",
+      "he_title": "משנה ערלה",
+      "name_fr": "Orla",
+      "seder": "Zeraim",
+      "seder_fr": "Zeraïm",
+      "chapters": [
+        9,
+        17,
+        9
+      ],
+      "n_chapters": 3,
+      "n_mishnayot": 35,
+      "bartenura_title": "Bartenura on Mishnah Orlah"
+    },
+    {
+      "title": "Mishnah Bikkurim",
+      "he_title": "משנה ביכורים",
+      "name_fr": "Bikourim",
+      "seder": "Zeraim",
+      "seder_fr": "Zeraïm",
+      "chapters": [
+        11,
+        11,
+        12,
+        5
+      ],
+      "n_chapters": 4,
+      "n_mishnayot": 39,
+      "bartenura_title": "Bartenura on Mishnah Bikkurim"
+    },
+    {
+      "title": "Mishnah Shabbat",
+      "he_title": "משנה שבת",
+      "name_fr": "Chabbat",
+      "seder": "Moed",
+      "seder_fr": "Moëd",
+      "chapters": [
+        11,
+        7,
+        6,
+        2,
+        4,
+        10,
+        4,
+        7,
+        7,
+        6,
+        6,
+        6,
+        7,
+        4,
+        3,
+        8,
+        8,
+        3,
+        6,
+        5,
+        3,
+        6,
+        5,
+        5
+      ],
+      "n_chapters": 24,
+      "n_mishnayot": 139,
+      "bartenura_title": "Bartenura on Mishnah Shabbat"
+    },
+    {
+      "title": "Mishnah Eruvin",
+      "he_title": "משנה עירובין",
+      "name_fr": "Erouvin",
+      "seder": "Moed",
+      "seder_fr": "Moëd",
+      "chapters": [
+        10,
+        6,
+        9,
+        11,
+        9,
+        10,
+        11,
+        11,
+        4,
+        15
+      ],
+      "n_chapters": 10,
+      "n_mishnayot": 96,
+      "bartenura_title": "Bartenura on Mishnah Eruvin"
+    },
+    {
+      "title": "Mishnah Pesachim",
+      "he_title": "משנה פסחים",
+      "name_fr": "Pessa'him",
+      "seder": "Moed",
+      "seder_fr": "Moëd",
+      "chapters": [
+        7,
+        8,
+        8,
+        9,
+        10,
+        6,
+        13,
+        8,
+        11,
+        9
+      ],
+      "n_chapters": 10,
+      "n_mishnayot": 89,
+      "bartenura_title": "Bartenura on Mishnah Pesachim"
+    },
+    {
+      "title": "Mishnah Shekalim",
+      "he_title": "משנה שקלים",
+      "name_fr": "Chekalim",
+      "seder": "Moed",
+      "seder_fr": "Moëd",
+      "chapters": [
+        7,
+        5,
+        4,
+        9,
+        6,
+        6,
+        7,
+        8
+      ],
+      "n_chapters": 8,
+      "n_mishnayot": 52,
+      "bartenura_title": "Bartenura on Mishnah Shekalim"
+    },
+    {
+      "title": "Mishnah Yoma",
+      "he_title": "משנה יומא",
+      "name_fr": "Yoma",
+      "seder": "Moed",
+      "seder_fr": "Moëd",
+      "chapters": [
+        8,
+        7,
+        11,
+        6,
+        7,
+        8,
+        5,
+        9
+      ],
+      "n_chapters": 8,
+      "n_mishnayot": 61,
+      "bartenura_title": "Bartenura on Mishnah Yoma"
+    },
+    {
+      "title": "Mishnah Sukkah",
+      "he_title": "משנה סוכה",
+      "name_fr": "Souka",
+      "seder": "Moed",
+      "seder_fr": "Moëd",
+      "chapters": [
+        11,
+        9,
+        15,
+        10,
+        8
+      ],
+      "n_chapters": 5,
+      "n_mishnayot": 53,
+      "bartenura_title": "Bartenura on Mishnah Sukkah"
+    },
+    {
+      "title": "Mishnah Beitzah",
+      "he_title": "משנה ביצה",
+      "name_fr": "Beitsa",
+      "seder": "Moed",
+      "seder_fr": "Moëd",
+      "chapters": [
+        10,
+        10,
+        8,
+        7,
+        7
+      ],
+      "n_chapters": 5,
+      "n_mishnayot": 42,
+      "bartenura_title": "Bartenura on Mishnah Beitzah"
+    },
+    {
+      "title": "Mishnah Rosh Hashanah",
+      "he_title": "משנה ראש השנה",
+      "name_fr": "Roch Hachana",
+      "seder": "Moed",
+      "seder_fr": "Moëd",
+      "chapters": [
+        9,
+        9,
+        8,
+        9
+      ],
+      "n_chapters": 4,
+      "n_mishnayot": 35,
+      "bartenura_title": "Bartenura on Mishnah Rosh Hashanah"
+    },
+    {
+      "title": "Mishnah Ta'anit",
+      "he_title": "משנה תענית",
+      "name_fr": "Taanit",
+      "seder": "Moed",
+      "seder_fr": "Moëd",
+      "chapters": [
+        7,
+        10,
+        9,
+        8
+      ],
+      "n_chapters": 4,
+      "n_mishnayot": 34,
+      "bartenura_title": "Bartenura on Mishnah Taanit"
+    },
+    {
+      "title": "Mishnah Megillah",
+      "he_title": "משנה מגילה",
+      "name_fr": "Meguila",
+      "seder": "Moed",
+      "seder_fr": "Moëd",
+      "chapters": [
+        11,
+        6,
+        6,
+        10
+      ],
+      "n_chapters": 4,
+      "n_mishnayot": 33,
+      "bartenura_title": "Bartenura on Mishnah Megillah"
+    },
+    {
+      "title": "Mishnah Moed Katan",
+      "he_title": "משנה מועד קטן",
+      "name_fr": "Moëd Katan",
+      "seder": "Moed",
+      "seder_fr": "Moëd",
+      "chapters": [
+        10,
+        5,
+        9
+      ],
+      "n_chapters": 3,
+      "n_mishnayot": 24,
+      "bartenura_title": "Bartenura on Mishnah Moed Katan"
+    },
+    {
+      "title": "Mishnah Chagigah",
+      "he_title": "משנה חגיגה",
+      "name_fr": "'Haguiga",
+      "seder": "Moed",
+      "seder_fr": "Moëd",
+      "chapters": [
+        8,
+        7,
+        8
+      ],
+      "n_chapters": 3,
+      "n_mishnayot": 23,
+      "bartenura_title": "Bartenura on Mishnah Chagigah"
+    },
+    {
+      "title": "Mishnah Yevamot",
+      "he_title": "משנה יבמות",
+      "name_fr": "Yevamot",
+      "seder": "Nashim",
+      "seder_fr": "Nachim",
+      "chapters": [
+        4,
+        10,
+        10,
+        13,
+        6,
+        6,
+        6,
+        6,
+        6,
+        9,
+        7,
+        6,
+        13,
+        9,
+        10,
+        7
+      ],
+      "n_chapters": 16,
+      "n_mishnayot": 128,
+      "bartenura_title": "Bartenura on Mishnah Yevamot"
+    },
+    {
+      "title": "Mishnah Ketubot",
+      "he_title": "משנה כתובות",
+      "name_fr": "Ketoubot",
+      "seder": "Nashim",
+      "seder_fr": "Nachim",
+      "chapters": [
+        10,
+        10,
+        9,
+        12,
+        9,
+        7,
+        10,
+        8,
+        9,
+        6,
+        6,
+        4,
+        11
+      ],
+      "n_chapters": 13,
+      "n_mishnayot": 111,
+      "bartenura_title": "Bartenura on Mishnah Ketubot"
+    },
+    {
+      "title": "Mishnah Nedarim",
+      "he_title": "משנה נדרים",
+      "name_fr": "Nedarim",
+      "seder": "Nashim",
+      "seder_fr": "Nachim",
+      "chapters": [
+        4,
+        5,
+        11,
+        8,
+        6,
+        10,
+        9,
+        7,
+        10,
+        8,
+        12
+      ],
+      "n_chapters": 11,
+      "n_mishnayot": 90,
+      "bartenura_title": "Bartenura on Mishnah Nedarim"
+    },
+    {
+      "title": "Mishnah Nazir",
+      "he_title": "משנה נזיר",
+      "name_fr": "Nazir",
+      "seder": "Nashim",
+      "seder_fr": "Nachim",
+      "chapters": [
+        7,
+        10,
+        7,
+        7,
+        7,
+        11,
+        4,
+        2,
+        5
+      ],
+      "n_chapters": 9,
+      "n_mishnayot": 60,
+      "bartenura_title": "Bartenura on Mishnah Nazir"
+    },
+    {
+      "title": "Mishnah Sotah",
+      "he_title": "משנה סוטה",
+      "name_fr": "Sota",
+      "seder": "Nashim",
+      "seder_fr": "Nachim",
+      "chapters": [
+        9,
+        6,
+        8,
+        5,
+        5,
+        4,
+        8,
+        7,
+        15
+      ],
+      "n_chapters": 9,
+      "n_mishnayot": 67,
+      "bartenura_title": "Bartenura on Mishnah Sotah"
+    },
+    {
+      "title": "Mishnah Gittin",
+      "he_title": "משנה גיטין",
+      "name_fr": "Guitin",
+      "seder": "Nashim",
+      "seder_fr": "Nachim",
+      "chapters": [
+        6,
+        7,
+        8,
+        9,
+        9,
+        7,
+        9,
+        10,
+        10
+      ],
+      "n_chapters": 9,
+      "n_mishnayot": 75,
+      "bartenura_title": "Bartenura on Mishnah Gittin"
+    },
+    {
+      "title": "Mishnah Kiddushin",
+      "he_title": "משנה קידושין",
+      "name_fr": "Kidouchin",
+      "seder": "Nashim",
+      "seder_fr": "Nachim",
+      "chapters": [
+        10,
+        10,
+        13,
+        14
+      ],
+      "n_chapters": 4,
+      "n_mishnayot": 47,
+      "bartenura_title": "Bartenura on Mishnah Kiddushin"
+    },
+    {
+      "title": "Mishnah Bava Kamma",
+      "he_title": "משנה בבא קמא",
+      "name_fr": "Baba Kama",
+      "seder": "Nezikin",
+      "seder_fr": "Nezikin",
+      "chapters": [
+        4,
+        6,
+        11,
+        9,
+        7,
+        6,
+        7,
+        7,
+        12,
+        10
+      ],
+      "n_chapters": 10,
+      "n_mishnayot": 79,
+      "bartenura_title": "Bartenura on Mishnah Bava Kamma"
+    },
+    {
+      "title": "Mishnah Bava Metzia",
+      "he_title": "משנה בבא מציעא",
+      "name_fr": "Baba Metsia",
+      "seder": "Nezikin",
+      "seder_fr": "Nezikin",
+      "chapters": [
+        8,
+        11,
+        12,
+        12,
+        11,
+        8,
+        11,
+        9,
+        13,
+        6
+      ],
+      "n_chapters": 10,
+      "n_mishnayot": 101,
+      "bartenura_title": "Bartenura on Mishnah Bava Metzia"
+    },
+    {
+      "title": "Mishnah Bava Batra",
+      "he_title": "משנה בבא בתרא",
+      "name_fr": "Baba Batra",
+      "seder": "Nezikin",
+      "seder_fr": "Nezikin",
+      "chapters": [
+        6,
+        14,
+        8,
+        9,
+        11,
+        8,
+        4,
+        8,
+        10,
+        8
+      ],
+      "n_chapters": 10,
+      "n_mishnayot": 86,
+      "bartenura_title": "Bartenura on Mishnah Bava Batra"
+    },
+    {
+      "title": "Mishnah Sanhedrin",
+      "he_title": "משנה סנהדרין",
+      "name_fr": "Sanhedrin",
+      "seder": "Nezikin",
+      "seder_fr": "Nezikin",
+      "chapters": [
+        6,
+        5,
+        8,
+        5,
+        5,
+        6,
+        11,
+        7,
+        6,
+        6,
+        6
+      ],
+      "n_chapters": 11,
+      "n_mishnayot": 71,
+      "bartenura_title": "Bartenura on Mishnah Sanhedrin"
+    },
+    {
+      "title": "Mishnah Makkot",
+      "he_title": "משנה מכות",
+      "name_fr": "Makot",
+      "seder": "Nezikin",
+      "seder_fr": "Nezikin",
+      "chapters": [
+        10,
+        8,
+        16
+      ],
+      "n_chapters": 3,
+      "n_mishnayot": 34,
+      "bartenura_title": "Bartenura on Mishnah Makkot"
+    },
+    {
+      "title": "Mishnah Shevuot",
+      "he_title": "משנה שבועות",
+      "name_fr": "Chevouot",
+      "seder": "Nezikin",
+      "seder_fr": "Nezikin",
+      "chapters": [
+        7,
+        5,
+        11,
+        13,
+        5,
+        7,
+        8,
+        6
+      ],
+      "n_chapters": 8,
+      "n_mishnayot": 62,
+      "bartenura_title": "Bartenura on Mishnah Shevuot"
+    },
+    {
+      "title": "Mishnah Eduyot",
+      "he_title": "משנה עדיות",
+      "name_fr": "Edouyot",
+      "seder": "Nezikin",
+      "seder_fr": "Nezikin",
+      "chapters": [
+        14,
+        10,
+        12,
+        12,
+        7,
+        3,
+        9,
+        7
+      ],
+      "n_chapters": 8,
+      "n_mishnayot": 74,
+      "bartenura_title": "Bartenura on Mishnah Eduyot"
+    },
+    {
+      "title": "Mishnah Avodah Zarah",
+      "he_title": "משנה עבודה זרה",
+      "name_fr": "Avoda Zara",
+      "seder": "Nezikin",
+      "seder_fr": "Nezikin",
+      "chapters": [
+        9,
+        7,
+        10,
+        12,
+        12
+      ],
+      "n_chapters": 5,
+      "n_mishnayot": 50,
+      "bartenura_title": "Bartenura on Mishnah Avodah Zarah"
+    },
+    {
+      "title": "Pirkei Avot",
+      "he_title": "משנה אבות",
+      "name_fr": "Pirkei Avot",
+      "seder": "Nezikin",
+      "seder_fr": "Nezikin",
+      "chapters": [
+        18,
+        16,
+        18,
+        22,
+        23,
+        11
+      ],
+      "n_chapters": 6,
+      "n_mishnayot": 108,
+      "bartenura_title": "Bartenura on Pirkei Avot"
+    },
+    {
+      "title": "Mishnah Horayot",
+      "he_title": "משנה הוריות",
+      "name_fr": "Horayot",
+      "seder": "Nezikin",
+      "seder_fr": "Nezikin",
+      "chapters": [
+        5,
+        7,
+        8
+      ],
+      "n_chapters": 3,
+      "n_mishnayot": 20,
+      "bartenura_title": "Bartenura on Mishnah Horayot"
+    },
+    {
+      "title": "Mishnah Zevachim",
+      "he_title": "משנה זבחים",
+      "name_fr": "Zeva'him",
+      "seder": "Kodashim",
+      "seder_fr": "Kodachim",
+      "chapters": [
+        4,
+        5,
+        6,
+        6,
+        8,
+        7,
+        6,
+        12,
+        7,
+        8,
+        8,
+        6,
+        8,
+        10
+      ],
+      "n_chapters": 14,
+      "n_mishnayot": 101,
+      "bartenura_title": "Bartenura on Mishnah Zevachim"
+    },
+    {
+      "title": "Mishnah Menachot",
+      "he_title": "משנה מנחות",
+      "name_fr": "Mena'hot",
+      "seder": "Kodashim",
+      "seder_fr": "Kodachim",
+      "chapters": [
+        4,
+        5,
+        7,
+        5,
+        9,
+        7,
+        6,
+        7,
+        9,
+        9,
+        9,
+        5,
+        11
+      ],
+      "n_chapters": 13,
+      "n_mishnayot": 93,
+      "bartenura_title": "Bartenura on Mishnah Menachot"
+    },
+    {
+      "title": "Mishnah Chullin",
+      "he_title": "משנה חולין",
+      "name_fr": "'Houlin",
+      "seder": "Kodashim",
+      "seder_fr": "Kodachim",
+      "chapters": [
+        7,
+        10,
+        7,
+        7,
+        5,
+        7,
+        6,
+        6,
+        8,
+        4,
+        2,
+        5
+      ],
+      "n_chapters": 12,
+      "n_mishnayot": 74,
+      "bartenura_title": "Bartenura on Mishnah Chullin"
+    },
+    {
+      "title": "Mishnah Bekhorot",
+      "he_title": "משנה בכורות",
+      "name_fr": "Bekhorot",
+      "seder": "Kodashim",
+      "seder_fr": "Kodachim",
+      "chapters": [
+        7,
+        9,
+        4,
+        10,
+        6,
+        12,
+        7,
+        10,
+        8
+      ],
+      "n_chapters": 9,
+      "n_mishnayot": 73,
+      "bartenura_title": "Bartenura on Mishnah Bekhorot"
+    },
+    {
+      "title": "Mishnah Arakhin",
+      "he_title": "משנה ערכין",
+      "name_fr": "Arakhin",
+      "seder": "Kodashim",
+      "seder_fr": "Kodachim",
+      "chapters": [
+        4,
+        6,
+        5,
+        4,
+        6,
+        5,
+        5,
+        7,
+        8
+      ],
+      "n_chapters": 9,
+      "n_mishnayot": 50,
+      "bartenura_title": "Bartenura on Mishnah Arakhin"
+    },
+    {
+      "title": "Mishnah Temurah",
+      "he_title": "משנה תמורה",
+      "name_fr": "Temoura",
+      "seder": "Kodashim",
+      "seder_fr": "Kodachim",
+      "chapters": [
+        6,
+        3,
+        5,
+        4,
+        6,
+        5,
+        6
+      ],
+      "n_chapters": 7,
+      "n_mishnayot": 35,
+      "bartenura_title": "Bartenura on Mishnah Temurah"
+    },
+    {
+      "title": "Mishnah Keritot",
+      "he_title": "משנה כריתות",
+      "name_fr": "Keritot",
+      "seder": "Kodashim",
+      "seder_fr": "Kodachim",
+      "chapters": [
+        7,
+        6,
+        10,
+        3,
+        8,
+        9
+      ],
+      "n_chapters": 6,
+      "n_mishnayot": 43,
+      "bartenura_title": "Bartenura on Mishnah Keritot"
+    },
+    {
+      "title": "Mishnah Meilah",
+      "he_title": "משנה מעילה",
+      "name_fr": "Meïla",
+      "seder": "Kodashim",
+      "seder_fr": "Kodachim",
+      "chapters": [
+        4,
+        9,
+        8,
+        6,
+        5,
+        6
+      ],
+      "n_chapters": 6,
+      "n_mishnayot": 38,
+      "bartenura_title": "Bartenura on Mishnah Meilah"
+    },
+    {
+      "title": "Mishnah Tamid",
+      "he_title": "משנה תמיד",
+      "name_fr": "Tamid",
+      "seder": "Kodashim",
+      "seder_fr": "Kodachim",
+      "chapters": [
+        4,
+        5,
+        9,
+        3,
+        6,
+        3,
+        4
+      ],
+      "n_chapters": 7,
+      "n_mishnayot": 34,
+      "bartenura_title": "Bartenura on Mishnah Tamid"
+    },
+    {
+      "title": "Mishnah Middot",
+      "he_title": "משנה מדות",
+      "name_fr": "Midot",
+      "seder": "Kodashim",
+      "seder_fr": "Kodachim",
+      "chapters": [
+        9,
+        6,
+        8,
+        7,
+        4
+      ],
+      "n_chapters": 5,
+      "n_mishnayot": 34,
+      "bartenura_title": "Bartenura on Mishnah Middot"
+    },
+    {
+      "title": "Mishnah Kinnim",
+      "he_title": "משנה קינים",
+      "name_fr": "Kinim",
+      "seder": "Kodashim",
+      "seder_fr": "Kodachim",
+      "chapters": [
+        4,
+        5,
+        6
+      ],
+      "n_chapters": 3,
+      "n_mishnayot": 15,
+      "bartenura_title": "Bartenura on Mishnah Kinnim"
+    },
+    {
+      "title": "Mishnah Kelim",
+      "he_title": "משנה כלים",
+      "name_fr": "Kelim",
+      "seder": "Tahorot",
+      "seder_fr": "Taharot",
+      "chapters": [
+        9,
+        8,
+        8,
+        4,
+        11,
+        4,
+        6,
+        11,
+        8,
+        8,
+        9,
+        8,
+        8,
+        8,
+        6,
+        8,
+        17,
+        9,
+        10,
+        7,
+        3,
+        10,
+        5,
+        17,
+        9,
+        9,
+        12,
+        10,
+        8,
+        4
+      ],
+      "n_chapters": 30,
+      "n_mishnayot": 254,
+      "bartenura_title": "Bartenura on Mishnah Kelim"
+    },
+    {
+      "title": "Mishnah Oholot",
+      "he_title": "משנה אהלות",
+      "name_fr": "Ohalot",
+      "seder": "Tahorot",
+      "seder_fr": "Taharot",
+      "chapters": [
+        8,
+        7,
+        7,
+        3,
+        7,
+        7,
+        6,
+        6,
+        16,
+        7,
+        9,
+        8,
+        6,
+        7,
+        10,
+        5,
+        5,
+        10
+      ],
+      "n_chapters": 18,
+      "n_mishnayot": 134,
+      "bartenura_title": "Bartenura on Mishnah Oholot"
+    },
+    {
+      "title": "Mishnah Negaim",
+      "he_title": "משנה נגעים",
+      "name_fr": "Negaïm",
+      "seder": "Tahorot",
+      "seder_fr": "Taharot",
+      "chapters": [
+        6,
+        5,
+        8,
+        11,
+        5,
+        8,
+        5,
+        10,
+        3,
+        10,
+        12,
+        7,
+        12,
+        13
+      ],
+      "n_chapters": 14,
+      "n_mishnayot": 115,
+      "bartenura_title": "Bartenura on Mishnah Negaim"
+    },
+    {
+      "title": "Mishnah Parah",
+      "he_title": "משנה פרה",
+      "name_fr": "Para",
+      "seder": "Tahorot",
+      "seder_fr": "Taharot",
+      "chapters": [
+        4,
+        5,
+        11,
+        4,
+        9,
+        5,
+        12,
+        11,
+        9,
+        6,
+        9,
+        11
+      ],
+      "n_chapters": 12,
+      "n_mishnayot": 96,
+      "bartenura_title": "Bartenura on Mishnah Parah"
+    },
+    {
+      "title": "Mishnah Tahorot",
+      "he_title": "משנה טהרות",
+      "name_fr": "Taharot",
+      "seder": "Tahorot",
+      "seder_fr": "Taharot",
+      "chapters": [
+        9,
+        8,
+        8,
+        13,
+        9,
+        10,
+        9,
+        9,
+        9,
+        8
+      ],
+      "n_chapters": 10,
+      "n_mishnayot": 92,
+      "bartenura_title": "Bartenura on Mishnah Tahorot"
+    },
+    {
+      "title": "Mishnah Mikvaot",
+      "he_title": "משנה מקואות",
+      "name_fr": "Mikvaot",
+      "seder": "Tahorot",
+      "seder_fr": "Taharot",
+      "chapters": [
+        8,
+        10,
+        4,
+        5,
+        6,
+        11,
+        7,
+        5,
+        7,
+        8
+      ],
+      "n_chapters": 10,
+      "n_mishnayot": 71,
+      "bartenura_title": "Bartenura on Mishnah Mikvaot"
+    },
+    {
+      "title": "Mishnah Niddah",
+      "he_title": "משנה נדה",
+      "name_fr": "Nida",
+      "seder": "Tahorot",
+      "seder_fr": "Taharot",
+      "chapters": [
+        7,
+        7,
+        7,
+        7,
+        9,
+        14,
+        5,
+        4,
+        11,
+        8
+      ],
+      "n_chapters": 10,
+      "n_mishnayot": 79,
+      "bartenura_title": "Bartenura on Mishnah Niddah"
+    },
+    {
+      "title": "Mishnah Makhshirin",
+      "he_title": "משנה מכשירין",
+      "name_fr": "Makhchirin",
+      "seder": "Tahorot",
+      "seder_fr": "Taharot",
+      "chapters": [
+        6,
+        11,
+        8,
+        10,
+        11,
+        8
+      ],
+      "n_chapters": 6,
+      "n_mishnayot": 54,
+      "bartenura_title": "Bartenura on Mishnah Makhshirin"
+    },
+    {
+      "title": "Mishnah Zavim",
+      "he_title": "משנה זבים",
+      "name_fr": "Zavim",
+      "seder": "Tahorot",
+      "seder_fr": "Taharot",
+      "chapters": [
+        6,
+        4,
+        3,
+        7,
+        12
+      ],
+      "n_chapters": 5,
+      "n_mishnayot": 32,
+      "bartenura_title": "Bartenura on Mishnah Zavim"
+    },
+    {
+      "title": "Mishnah Tevul Yom",
+      "he_title": "משנה טבול יום",
+      "name_fr": "Tevoul Yom",
+      "seder": "Tahorot",
+      "seder_fr": "Taharot",
+      "chapters": [
+        5,
+        8,
+        6,
+        7
+      ],
+      "n_chapters": 4,
+      "n_mishnayot": 26,
+      "bartenura_title": "Bartenura on Mishnah Tevul Yom"
+    },
+    {
+      "title": "Mishnah Yadayim",
+      "he_title": "משנה ידים",
+      "name_fr": "Yadayim",
+      "seder": "Tahorot",
+      "seder_fr": "Taharot",
+      "chapters": [
+        5,
+        4,
+        5,
+        8
+      ],
+      "n_chapters": 4,
+      "n_mishnayot": 22,
+      "bartenura_title": "Bartenura on Mishnah Yadayim"
+    },
+    {
+      "title": "Mishnah Oktzin",
+      "he_title": "משנה עוקצים",
+      "name_fr": "Oktsin",
+      "seder": "Tahorot",
+      "seder_fr": "Taharot",
+      "chapters": [
+        6,
+        10,
+        12
+      ],
+      "n_chapters": 3,
+      "n_mishnayot": 28,
+      "bartenura_title": "Bartenura on Mishnah Oktzin"
+    }
+  ]
+}
