@@ -92,9 +92,19 @@ Produit `.md`, `.html` et `.pdf`. Le script **refuse d'assembler** si une
 section du Bartenura n'a pas sa traduction : c'est le garde-fou, ne pas le
 contourner. S'il refuse, compléter le `.fr.json`.
 
-Le PDF est rendu via Chrome headless (mise en page A4, hébreu en RTL). Si aucun
-convertisseur n'est disponible, le script le signale et produit quand même
+Le PDF est rendu via Chrome ou Chromium (mise en page A4, hébreu en RTL). Le
+script le cherche dans `$MICHNA_CHROME`, puis dans `/Applications` (macOS),
+puis dans le `PATH` (`chromium`, `google-chrome`… — c'est le cas des
+conteneurs Linux comme celui de Cowork). À défaut il tente weasyprint puis
+wkhtmltopdf, mais **wkhtmltopdf tronque les longues lignes hébraïques** :
+si c'est lui qui a servi, le signaler et vérifier le rendu.
+
+Si aucun convertisseur n'est disponible, le script le dit et produit quand même
 `.md` et `.html` — l'annoncer plutôt que de faire silence.
+
+L'emphase Markdown du `.fr.json` (`*terme*`, `**gras**`) est convertie en
+`<em>` / `<strong>` dans le HTML et le PDF : écrire le français avec cette
+convention, sans balises HTML.
 
 ## Étape 4 — Contrôler avant de livrer
 
