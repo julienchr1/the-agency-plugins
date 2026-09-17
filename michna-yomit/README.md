@@ -12,7 +12,7 @@ Plugin d'étude quotidienne de la Michna, entièrement sourcé sur
    Talmud. En `.md`, `.html` et `.pdf`.
 2. **Deux michnaiot par jour**, selon le calendrier du programme.
 3. **Le calendrier du programme** — 63 traités, 4192 michnaiot, du
-   16 juillet 2025 au 12 avril 2031 ; interrogeable (« où en est-on »,
+   16 juillet 2025 au 11 avril 2031 ; interrogeable (« où en est-on »,
    avancement par traité) et recalibrable.
 4. **Le message WhatsApp quotidien**, prêt à valider puis à envoyer.
 5. **Les jalons du cycle** — ouverture de traité, siyoum, changement de seder.
@@ -109,13 +109,13 @@ weasyprint / wkhtmltopdf si présents).
 
 Départ **16 juillet 2025** à Zeva'him 1:1, 2 michnaiot par jour, tous les
 jours. Ordre : Kodachim (depuis Zeva'him) → Taharot → Zeraïm → Moëd → Nachim
-→ Nezikin. Fin prévue le **12 avril 2031**.
+→ Nezikin. Fin prévue le **11 avril 2031**.
 
-Le calendrier est **calibré sur le 16ᵉ cycle Mishnah Yomi** du Dafyomi
-Advancement Forum, sur lequel le programme est aligné. Les éditions ne
-découpant pas les michnaiot de la même façon, un offset d'une michna est
-appliqué ; il est vérifié à chaque génération. Détail dans
-`references/programme.md`.
+Le calendrier est **calibré sur la position réellement étudiée par
+l'utilisateur**, jamais sur un calendrier externe — le cycle « Mishnah Yomi »
+de dafyomi.co.il en est proche mais décalé d'une michna. L'observation de
+référence est conservée dans `data/program.json` et revérifiée à chaque
+génération. Détail dans `references/programme.md`.
 
 ## Vérifié le 17 septembre 2026
 
@@ -124,9 +124,9 @@ appliqué ; il est vérifié à chaque génération. Détail dans
   séparé du commentaire.
 - Table dafyomi.co.il : **37 traités du Bavli**, chaque slug validé par une
   requête HTTP. Tamid n'a pas de pages « background » sur le site.
-- Le calendrier calibré reproduit exactement la semaine publiée par
-  dafyomi.co.il (17→20 septembre 2026).
-- Chaîne complète exécutée sur Ohalot 2:4 et 2:5 : sources, français, `.md`,
+- Le calendrier calibré reproduit la position réelle de l'utilisateur
+  (Ohalot 2:5-6 le 17 septembre 2026).
+- Chaîne complète exécutée sur Ohalot 2:4 et 2:5 (échantillons) : sources, français, `.md`,
   `.html`, `.pdf` (4 pages, hébreu en RTL, polices embarquées).
 
 ## Points ouverts

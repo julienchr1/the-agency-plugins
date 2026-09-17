@@ -39,10 +39,10 @@ traité, ainsi que les changements de seder.
 python3 "${CLAUDE_PLUGIN_ROOT}"/scripts/calendar_build.py build
 ```
 
-La sortie vérifie la calibration. Si elle affiche `ECART`, comparer avec la
-page de référence du 16ᵉ cycle Mishnah Yomi
-(<https://www.dafyomi.co.il/calendars/myomi/todays_mishnah.php>) et recaler
-via `michna-calendrier`.
+La sortie vérifie la calibration. Si elle affiche `ECART`, **demander à
+l'utilisateur la michna qu'il étudie réellement** et recaler sur sa réponse via
+`michna-calendrier`. Ne pas recaler sur le cycle de dafyomi.co.il : il est
+décalé d'une michna par rapport à ce programme.
 
 ## 5. Santé des sources
 

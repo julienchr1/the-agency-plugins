@@ -9,7 +9,7 @@
 | Jours | tous les jours, Chabbat inclus |
 | Ordre | ordre canonique du Shas, en bouclant depuis Zeva'him |
 | Étendue | 63 traités, 4192 michnaiot |
-| Durée | 2097 jours — fin prévue le **12 avril 2031** |
+| Durée | 2096 jours — fin prévue le **11 avril 2031** |
 
 L'ordre du cycle est donc : Kodachim (depuis Zeva'him) → Taharot → Zeraïm →
 Moëd → Nachim → Nezikin.
@@ -18,44 +18,44 @@ Le 16 juillet 2025 était un **mercredi**. Le programme avait d'abord été
 décrit comme démarrant « le mardi 16 juillet » : c'est le 16 juillet 2025 qui
 a été retenu, pas le mardi 15.
 
-## Rapport au 16ᵉ cycle Mishnah Yomi
+## Ce programme n'est pas le cycle Mishnah Yomi de dafyomi.co.il
 
-Ce programme est aligné sur le **16ᵉ cycle Mishnah Yomi** du Dafyomi
-Advancement Forum, qui est entré dans Zeva'him à la même période et publie le
-même rythme de 2 michnaiot par jour :
+Le Dafyomi Advancement Forum publie un cycle « Mishnah Yomi » au même rythme de
+2 michnaiot par jour, entré dans Zeva'him à la même période :
 
 <https://www.dafyomi.co.il/calendars/myomi/todays_mishnah.php>
 
-C'est la référence à consulter en cas de doute sur la position réelle.
+Il en est proche, mais **décalé d'une michna**. Le 17 septembre 2026, ce
+programme était à **Ohalot 2:5-6** quand le cycle officiel était à
+Ohalot 2:4-5.
 
-## Le décalage d'une michna
+C'est un repère utile pour comprendre un écart — **jamais** une référence pour
+recaler le calendrier.
 
-Les éditions ne découpent pas les michnaiot de façon identique. Entre
-Zeva'him 1:1 et Ohalot 2, Sefaria en compte **une de plus** que l'édition
-suivie par dafyomi.co.il.
+## La calibration
 
-Sans correction, le calcul depuis le 16 juillet 2025 donnait Ohalot 2:5-6 pour
-le 17 septembre 2026, alors que le cycle officiel donnait Ohalot 2:4-5.
+`data/program.json` porte `offset_mishnayot` et un bloc `calibration` qui
+conserve une observation datée : *à telle date, la première des deux michnaiot
+était celle-ci*. Chaque `build` revérifie cette observation.
 
-`data/program.json` porte donc `offset_mishnayot: -1`, calibré sur cette
-observation. Le calendrier ainsi calibré reproduit exactement la semaine
-publiée par le site :
+**Cette observation vient de l'utilisateur, pas d'un site.** Le calcul brut
+depuis le 16 juillet 2025 tombe juste : `offset_mishnayot = 0`.
 
-| date | calendrier | site officiel |
-|---|---|---|
-| jeu. 17/09/2026 | Ohalot 2:4-5 | Ohalos 2:4-5 |
-| ven. 18/09/2026 | Ohalot 2:6-7 | Ohalos 2:6-7 |
-| sam. 19/09/2026 | Ohalot 3:1-2 | Ohalos 3:1-2 |
-| dim. 20/09/2026 | Ohalot 3:3-4 | Ohalos 3:3-4 |
+Une erreur a été commise le 17/09/2026 : le calendrier avait été calibré sur le
+cycle de dafyomi.co.il, ce qui l'avait décalé d'une michna (Ohalot 2:4-5 au lieu
+de 2:5-6). Corrigé le jour même sur signalement de l'utilisateur. La règle qui
+en découle : **si l'utilisateur signale un écart, sa position est juste par
+définition.**
 
-D'autres écarts de découpage peuvent apparaître plus loin dans le Shas. La
-commande `calibrate` existe pour cela : elle recale l'ensemble sur une
-observation réelle. Chaque `build` revérifie la calibration et prévient en cas
-d'écart.
+Un vrai écart de découpage entre éditions peut apparaître plus loin dans le
+Shas. Dans ce cas, `calendar_build.py calibrate <date> "<ref>"` recale
+l'ensemble — toujours sur une observation de l'utilisateur.
 
 ## Position au 17 septembre 2026
 
-- jour **429** sur 2097
-- **Ohalot 2:4-5**
+- jour **429** sur 2096
+- **Ohalot 2:5-6**
 - 856 michnaiot faites sur 4192 — **20,4 %**
-- Kodachim achevé ; Taharot en cours (Kelim fait, Ohalot jusqu'au 17/11/2026)
+- Kodachim achevé (Zeva'him → Kinim), Kelim achevé (254 michnaiot)
+- Ohalot en cours : 12 faites sur 134, du 11/09/2026 au **16/11/2026** (67 jours)
+- puis Negaïm (115 michnaiot) à partir du 17/11/2026

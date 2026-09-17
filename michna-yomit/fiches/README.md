@@ -15,5 +15,6 @@ Pour chaque michna, trois fichiers :
 `build_fiche.py` produit aussi `.html` et `.pdf`, non conservés ici pour ne pas
 alourdir le plugin.
 
-Les échantillons portent sur Ohalot 2:4 et 2:5 — la journée du 17 septembre
-2026, soit un jour complet à deux michnaiot.
+Les échantillons portent sur Ohalot 2:4 et 2:5 : deux michnaiot consécutives,
+qui montrent le format sur un cas réel (6 et 4 sections de Bartenura). Ce n'est
+pas une journée du programme — le 17 septembre 2026 correspond à Ohalot 2:5-6.

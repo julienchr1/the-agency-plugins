@@ -4,7 +4,7 @@
   "start_ref": "Mishnah Zevachim 1:1",
   "per_day": 2,
   "skip": "none",
-  "offset_mishnayot": -1,
+  "offset_mishnayot": 0,
   "_skip_options": [
     "none",
     "shabbat",
@@ -12,15 +12,15 @@
   ],
   "calibration": {
     "date": "2026-09-17",
-    "expected_first_ref": "Mishnah Oholot 2:4",
-    "source": "https://www.dafyomi.co.il/calendars/myomi/todays_mishnah.php",
-    "source_label": "16e cycle Mishnah Yomi, Dafyomi Advancement Forum",
+    "expected_first_ref": "Mishnah Oholot 2:5",
+    "source": "observation de l'utilisateur (son programme reel)",
+    "source_label": "Julien Chriqui — position effectivement etudiee le 17/09/2026",
     "verified_on": "2026-09-17",
-    "note": "Le decoupage des michnaiot differe d'une edition a l'autre. Sefaria compte une michna de plus que l'edition suivie par dafyomi.co.il entre Zeva'him 1:1 et Ohalot 2 : offset_mishnayot = -1 recale la sequence sur le cycle officiel."
+    "note": "La reference est TOUJOURS ce que l'utilisateur etudie reellement, jamais un calendrier externe. Le calcul brut depuis start_date donne cette position : offset_mishnayot = 0."
   },
   "notes": [
     "Programme declare : demarre le 16 juillet 2025 (un mercredi) par Zeva'him 1:1, 2 michnaiot par jour, tous les jours Chabbat inclus.",
     "Ordre du cycle : depuis start_ref on suit l'ordre canonique du Shas en bouclant, jusqu'a couvrir les 63 traites.",
-    "Ce programme est aligne, a une michna pres, sur le 16e cycle Mishnah Yomi de dafyomi.co.il, entre dans Zeva'him a la meme periode."
+    "Ce programme n'est PAS le cycle Mishnah Yomi de dafyomi.co.il. Le 17/09/2026 il etait a Ohalot 2:5-6 quand le cycle officiel etait a Ohalot 2:4-5 : une michna d'ecart. Ne jamais recaler sur le site officiel — seule la position reelle de l'utilisateur fait foi."
   ]
 }
