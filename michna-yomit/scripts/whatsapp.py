@@ -26,6 +26,21 @@ ROOT = paths.HOME
 FICHES = paths.FICHES
 DATA = paths.DATA
 SEP = "━━━━━━━━━━━━━━━"
+
+# Les fiches sont redigees en Markdown (`*terme*` italique, `**mot**` gras).
+# WhatsApp inverse la convention : *gras*, _italique_. Un simple
+# remplacement de "*" par "_" cassait le gras (`**os**` -> `__os__`), donc on
+# convertit en deux passes avec une marque intermediaire.
+MD_BOLD = re.compile(r"\*\*(?=\S)(.+?)(?<=\S)\*\*", re.S)
+MD_ITALIC = re.compile(r"(?<!\*)\*(?=\S)([^*]+?)(?<=\S)\*(?!\*)", re.S)
+_MARK = "\x00"
+
+
+def wa(s) -> str:
+    """Markdown des fiches -> conventions WhatsApp."""
+    out = MD_BOLD.sub(lambda m: _MARK + m.group(1) + _MARK, s or "")
+    out = MD_ITALIC.sub(r"_\1_", out)
+    return out.replace(_MARK, "*")
 NUM = {1: "1️⃣", 2: "2️⃣", 3: "3️⃣", 4: "4️⃣"}
 
 MOIS = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet",
@@ -106,10 +121,10 @@ def compose(day_iso: str, lien: str | None) -> str:
         L.append("")
         L.append(f"_{src['michna']['hebreu']}_")
         L.append("")
-        L.append(fr["traduction"].replace("*", "_"))
+        L.append(wa(fr["traduction"]))
         L.append("")
         for p in fr.get("points_essentiels", []):
-            L.append(f"💡 {p}")
+            L.append(f"💡 {wa(p)}")
         L.append("")
 
     L.append(SEP)
@@ -129,21 +144,27 @@ def main():
     ap.add_argument("--lien")
     ap.add_argument("--copier", action="store_true",
                     help="copie le message dans le presse-papiers (macOS)")
-    ap.add_argument("--out", help="ecrit aussi le message dans ce fichier")
+    ap.add_argument("--out", help="ecrit le message dans ce fichier")
+    ap.add_argument("--verbose", action="store_true",
+                    help="diagnostics sur stderr (nombre de caracteres, copie)")
     a = ap.parse_args()
 
     msg = compose(a.day, a.lien)
+    # stdout ne contient QUE le message : une redirection `> fichier 2>&1` ne
+    # doit pas y glisser de diagnostic. Ils sont donc muets par defaut.
     print(msg)
     if a.out:
         with open(a.out, "w", encoding="utf-8") as fh:
-            fh.write(msg)
+            fh.write(msg if msg.endswith("\n") else msg + "\n")
     if a.copier:
         try:
             subprocess.run(["pbcopy"], input=msg.encode("utf-8"), check=True)
-            print("\n[message copie dans le presse-papiers]", file=sys.stderr)
+            if a.verbose:
+                print("[message copie dans le presse-papiers]", file=sys.stderr)
         except Exception as exc:
-            print(f"\n[copie impossible : {exc}]", file=sys.stderr)
-    print(f"\n[{len(msg)} caracteres]", file=sys.stderr)
+            print(f"[copie impossible : {exc}]", file=sys.stderr)
+    if a.verbose:
+        print(f"[{len(msg)} caracteres]", file=sys.stderr)
 
 
 if __name__ == "__main__":
