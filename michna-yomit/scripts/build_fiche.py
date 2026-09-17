@@ -175,6 +175,11 @@ CSS = """
 @page { size: A4; margin: 18mm 16mm; }
 body { font-family: "Times New Roman", Times, serif; font-size: 11.5pt;
        line-height: 1.55; color: #1a1a1a; max-width: 760px; margin: 0 auto; }
+/* A l'impression, la zone utile d'une A4 avec les marges @page fait ~673 px a
+   96 dpi : un max-width de 760 px depasse de ~87 px. Chrome recale, mais
+   wkhtmltopdf laisse deborder — et un bloc RTL aligne a droite voit alors son
+   DEBUT sortir de la page et se faire couper. */
+@media print { body { max-width: 100%; margin: 0; } }
 h1 { font-size: 20pt; margin: 0 0 4pt; border-bottom: 2px solid #8a6d3b;
      padding-bottom: 6pt; }
 h2 { font-size: 14pt; margin: 22pt 0 8pt; color: #6b4f1d;
@@ -182,13 +187,21 @@ h2 { font-size: 14pt; margin: 22pt 0 8pt; color: #6b4f1d;
 h3 { font-size: 12pt; margin: 14pt 0 5pt; color: #333; }
 .meta { font-size: 10pt; color: #555; margin-bottom: 14pt; }
 .meta div { margin: 2pt 0; }
-blockquote, .he { direction: rtl; text-align: right; unicode-bidi: isolate;
-  font-family: "Times New Roman", "Arial Hebrew", "SF Hebrew", serif;
+blockquote, .he, .bart .lemme { direction: rtl; text-align: right;
+  /* `embed` d'abord : les moteurs anciens (Qt WebKit de wkhtmltopdf) ignorent
+     `isolate` et prendraient la declaration entiere en defaut. */
+  unicode-bidi: embed; unicode-bidi: isolate;
+  /* Le repli doit etre explicite : sans cela wkhtmltopdf ne coupe pas une
+     longue ligne hebraique et la fait deborder. */
+  overflow-wrap: break-word; word-wrap: break-word; white-space: normal;
+  max-width: 100%; box-sizing: border-box; }
+blockquote, .he {
+  font-family: "Times New Roman", "Arial Hebrew", "SF Hebrew", "FreeSerif", serif;
   font-size: 14pt; line-height: 1.9; background: #faf7f0;
   border-right: 3px solid #8a6d3b; padding: 10pt 12pt; margin: 8pt 0; }
 .bart { margin: 0 0 12pt; padding-bottom: 8pt; border-bottom: 1px dotted #ccc; }
-.bart .lemme { direction: rtl; text-align: right; font-weight: bold;
-  font-family: "Times New Roman", "Arial Hebrew", serif; font-size: 12.5pt; }
+.bart .lemme { font-weight: bold; font-size: 12.5pt;
+  font-family: "Times New Roman", "Arial Hebrew", "FreeSerif", serif; }
 .bart .he { font-size: 12.5pt; line-height: 1.8; background: #fcfaf5;
   padding: 7pt 10pt; }
 .bart .fr { margin-top: 5pt; }
@@ -316,15 +329,30 @@ def html_to_pdf(html_path: str, pdf_path: str) -> tuple[bool, str]:
         except Exception as exc:
             return False, f"chrome: {exc}"
 
-    for tool in ("weasyprint", "wkhtmltopdf"):
-        if shutil.which(tool):
-            try:
-                subprocess.run([tool, html_path, pdf_path], capture_output=True,
-                               timeout=120, check=True)
-                if os.path.exists(pdf_path):
-                    return True, tool
-            except Exception as exc:
-                return False, f"{tool}: {exc}"
+    if shutil.which("weasyprint"):
+        try:
+            subprocess.run(["weasyprint", html_path, pdf_path],
+                           capture_output=True, timeout=180, check=True)
+            if os.path.exists(pdf_path):
+                return True, "weasyprint"
+        except Exception as exc:
+            return False, f"weasyprint: {exc}"
+    if shutil.which("wkhtmltopdf"):
+        # Sans geometrie explicite, wkhtmltopdf applique ses propres marges et
+        # ignore @page : la mise en page deborde et l'hebreu se fait couper.
+        try:
+            subprocess.run(
+                ["wkhtmltopdf", "--quiet", "--encoding", "utf-8",
+                 "--page-size", "A4", "--print-media-type",
+                 "--margin-top", "18mm", "--margin-bottom", "18mm",
+                 "--margin-left", "16mm", "--margin-right", "16mm",
+                 "--enable-local-file-access",
+                 html_path, pdf_path],
+                capture_output=True, timeout=180, check=True)
+            if os.path.exists(pdf_path):
+                return True, "wkhtmltopdf"
+        except Exception as exc:
+            return False, f"wkhtmltopdf: {exc}"
     return False, ("aucun convertisseur : installer Google Chrome, "
                    "`pip install weasyprint` ou `brew install wkhtmltopdf`")
 
