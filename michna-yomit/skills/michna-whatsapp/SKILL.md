@@ -28,9 +28,25 @@ Puis, en pied : le lien ou la mention de la pièce jointe, et le lien Sefaria.
 L'en-tête porte la date, le jour du cycle, le pourcentage, et tout jalon
 détecté (premier ou dernier jour d'un traité).
 
-Conventions WhatsApp : `*gras*`, `_italique_`. L'italique du `.fr.json`
-(`*terme*`) est converti en `_terme_` par le script — ne pas le refaire à la
-main.
+### Emphase : ne rien convertir à la main
+
+Les fiches sont rédigées en Markdown (`*terme*` italique, `**mot**` gras) ;
+WhatsApp inverse la convention (`*gras*`, `_italique_`). Le script fait la
+conversion dans les deux sens, sur la traduction **et** sur les points
+essentiels. Ne pas la refaire à la main : on casserait le gras.
+
+### Sauvegarder le message
+
+Utiliser `--out`, jamais une redirection shell :
+
+```bash
+python3 "${CLAUDE_PLUGIN_ROOT}"/scripts/whatsapp.py --day 2026-09-18 \
+  --out messages/2026-09-18.txt
+```
+
+`stdout` ne contient que le message, et les diagnostics sont muets sauf avec
+`--verbose` — une redirection `> fichier 2>&1` ne peut donc plus glisser de
+ligne parasite dans le fichier sauvegardé.
 
 Si un jalon tombe ce jour-là, faire précéder le message du bloc produit par
 `michna-massekhet` (ouverture de traité ou siyoum) plutôt que de l'improviser.
