@@ -96,6 +96,28 @@ def controle_citations(src: dict, fr: dict) -> list[str]:
     return errs
 
 
+def index_trame(src: dict) -> dict:
+    """{id d'etape -> etape} pour la trame du Kollel, si elle est collectee."""
+    pts = (src.get("points") or {}).get("sujets") or []
+    return {e["id"]: e for s in pts for e in s["etapes"]}
+
+
+def controle_trame(src: dict, fr: dict) -> list[str]:
+    """Chaque etape referencee doit exister dans la trame collectee : c'est
+    ce qui garantit que son lemme arameen est authentique."""
+    idx = index_trame(src)
+    errs = []
+    for s in fr.get("sugyot", []):
+        for e in s.get("etapes", []):
+            ref = e.get("ref")
+            if not ref:
+                errs.append(f"sugya {s.get('n')} : etape sans `ref`")
+            elif idx and ref not in idx:
+                errs.append(f"sugya {s.get('n')} : etape {ref!r} absente de la "
+                            f"trame du Kollel")
+    return errs
+
+
 def controle_difficultes(fr: dict) -> list[str]:
     n = sum(1 for s in fr.get("sugyot", []) if s.get("difficulte"))
     if n > 1:
@@ -132,6 +154,30 @@ def bloc_citation(src: dict, c: dict) -> str:
     he = a["he"][int(c["seg"]) - 1]
     return (f"> {he}\n>\n> *{c['amud']}:{c['seg']}* — "
             f"{c.get('rendu', '').strip()}\n")
+
+
+def bloc_etapes(src: dict, etapes: list) -> list[str]:
+    """La trame dialectique : role, francais, puis le lemme arameen tire de la
+    collecte. Le lemme n'est jamais saisi dans le .fr.json.
+
+    Pas d'indentation par espaces — Markdown en ferait un bloc de code — et
+    chaque lemme occupe son propre bloc, sinon il fusionne avec le paragraphe
+    francais et le sens de lecture se brouille.
+    """
+    idx = index_trame(src)
+    L = []
+    for e in etapes:
+        src_e = idx.get(e.get("ref"), {})
+        marque = e.get("ref", "").split(".", 1)[-1]
+        role = e.get("role") or src_e.get("role") or ""
+        tete = f"**({marque})**" + (f" **{role}**" if role else "")
+        L += [f"{tete} — {e.get('texte', '').strip()}", ""]
+        lm = src_e.get("lemme", "")
+        if lm:
+            L += [f"> {lm}", ""]
+        if e.get("note"):
+            L += [f"→ *{e['note']}*", ""]
+    return L
 
 
 def bloc_tableau(t: dict) -> list[str]:
@@ -186,6 +232,8 @@ def md_B(src: dict, fr: dict, date_iso: str | None) -> str:
               + (f" · {s['nature']}*" if s.get("nature") else "*"), ""]
         if s.get("intro"):
             L += [s["intro"].strip(), ""]
+        if s.get("etapes"):
+            L += ["### La trame", ""] + bloc_etapes(src, s["etapes"])
         for c in s.get("citations", []):
             L += [bloc_citation(src, c), ""]
         for t in s.get("tableaux", []):
@@ -258,7 +306,8 @@ def md_B_light(src: dict, fr: dict, date_iso: str | None) -> str:
 # ----------------------------------------------------------------------- main
 def produit(slug: str, date_iso: str | None, only: str | None, pdf: bool):
     src, fr = charge(slug)
-    errs = controle_citations(src, fr) + controle_difficultes(fr)
+    errs = (controle_citations(src, fr) + controle_difficultes(fr)
+            + controle_trame(src, fr))
     if only != "light":
         errs += controle_traduction(src, fr)
     if errs:
