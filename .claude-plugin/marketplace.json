@@ -11,6 +11,11 @@
       "name": "michna-yomit",
       "source": "./michna-yomit",
       "description": "Étude quotidienne de la Michna sourcée sur Sefaria : fiche complète par michna (texte hébreu intégral, traduction et explication en français, intégralité des sections du Bartenura traduites) en Markdown et PDF, calendrier du programme sur 63 traités, message WhatsApp quotidien, jalons de traité et monitoring hebdomadaire."
+    },
+    {
+      "name": "daf-yomi",
+      "source": "./daf-yomi",
+      "description": "Étude quotidienne du Daf Yomi, sourcée sur Sefaria et le Kollel Iyun Hadaf. Deux fiches PDF par jour : une lecture guidée complète (araméen intégral traduit, organisé par sugya, Rashi et Tossafot) et une version courte de 6 pages qui rend compte de la structure. Calendrier, siyoum haShas, jalons de traité, message WhatsApp, monitoring."
     }
   ]
 }

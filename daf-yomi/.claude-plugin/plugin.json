@@ -1,0 +1,7 @@
+{
+  "name": "daf-yomi",
+  "version": "0.1.0",
+  "description": "Étude quotidienne du Daf Yomi, sourcée sur Sefaria et sur le Kollel Iyun Hadaf. Produit chaque jour deux fiches en PDF : une lecture guidée complète (texte araméen intégral, traduction française, organisation par sugya, commentateurs) et une version courte de 6 pages qui rend compte de la structure et des sujets. Le daf du jour vient de l'API calendrier de Sefaria — aucun calcul de calendrier. Tient la position dans le cycle, le compte à rebours du siyoum haShas, les jalons de traité (hadran, siyoum), le message WhatsApp quotidien et un monitoring hebdomadaire.",
+  "author": { "name": "Julien Chriqui" },
+  "keywords": ["daf-yomi", "talmud", "gemara", "sefaria", "rashi", "tosafot", "hebrew", "aramaic"]
+}
