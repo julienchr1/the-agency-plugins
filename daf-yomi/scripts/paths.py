@@ -9,7 +9,7 @@ Elles vont dans le dossier de travail, dans cet ordre de priorite :
   1. $DAF_HOME
   2. un fichier .daf-yomi dans le repertoire courant (vide = travailler
      ici ; sinon il contient le chemin du dossier de travail)
-  3. le repertoire courant s'il contient deja data/program.json
+  3. le repertoire courant s'il contient deja data/bavli.json
   4. ~/Documents/Daf Yomi
 
 Les donnees de reference livrees avec le plugin (les 63 traites, la table
@@ -45,7 +45,7 @@ def _resolve_home() -> str:
         if target:
             return os.path.abspath(os.path.expanduser(target))
         return cwd
-    if os.path.exists(os.path.join(cwd, "data", "program.json")):
+    if os.path.exists(os.path.join(cwd, "data", "bavli.json")):
         return cwd
     return os.path.expanduser("~/Documents/Daf Yomi")
 
