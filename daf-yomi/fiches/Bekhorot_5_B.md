@@ -1,18 +1,77 @@
 # Bekhorot 5
 
-**mercredi 23 septembre 2026** · **Daf Yomi** · Bekhorot 5 sur 61 · seder Kodachim
-**Siyoum haShas** le 2027-06-07 (Niddah 73a) — dans 257 jours
+**mercredi 23 septembre 2026** · **Daf Yomi** · Bekhorot 5 sur 61 · seder Kodachim  
+**Siyoum haShas** le 2027-06-07 (Niddah 73a) — dans 257 jours  
+
 *Sainteté des premiers-nés au désert, les comptes de Moïse, et la ressemblance du premier-né à sa mère*
 
 ---
 
 > **Lecture guidée.** Le texte du daf est traduit intégralement, organisé par sugya.
 
-## 1. La sainteté des premiers-nés au désert
+## 1. La sainteté du premier-né au désert (suite)
 
 *5a:1–7 · débat amoraïque*
 
 Rabbi Yo'hanan et Rech Lakich s'opposent sur la persistance de la sainteté des premiers-nés après le recensement. Chacun a son verset ; la sugya se termine sur une leçon de transmission.
+
+### La trame
+
+**(a)** **Question** — On comprend Rech Lakich : il tire son avis de « Et lorsque l'Éternel t'aura fait entrer… tu consacreras » (Exode 13:11-12).
+
+> בשלמא ריש לקיש כדאמר טעם
+
+**(a.1)** — Mais pour Rabbi Yo'hanan, quelle est la raison ?
+
+> אלא לר' יוחנן מאי טעמא
+
+**(b)** **Rabbi Elazar** — « J'ai vu Rabbi Yo'hanan en rêve » — c'est donc que je vais donner une bonne raison.
+
+> אמר ר' אלעזר ר' יוחנן חזאי בחילמא דמילתא מעליתא אמינא
+
+→ *Le rêve n'est pas un argument : il autorise Rabbi Elazar à parler au nom de son maître.*
+
+**(c)** **Réponse (R. Elazar)** — « Ils seront à moi » (Nombres 3:13) — ils *demeureront* dans leur état. La sanctification des premiers-nés n'a jamais cessé.
+
+> אמר קרא לי יהיו בהוייתן יהו
+
+**(d)** **Question** — Et Rabbi Yo'hanan, comment interprète-t-il « Et lorsque l'Éternel t'aura fait entrer… tu consacreras » ?
+
+> ורבי יוחנן והיה כי יביאך והעברת מאי עביד ליה
+
+**(e)** **Réponse** — Il l'interprète comme l'école de Rabbi Yichmaël.
+
+> ההוא מיבעי ליה לכדתנא דבי רבי ישמעאל
+
+**(e.1)** **Baraïta (école de R. Yichmaël)** — Accomplir cette mitsva est ce qui vaudra à Israël d'entrer en terre d'Israël.
+
+> עשה מצוה זו שבשבילה תיכנס לארץ
+
+→ *Le verset ne fonde donc pas la sainteté : il en fait le mérite de l'entrée au pays.*
+
+**(f)** **Version 3 — Rav Mordekhaï** — Nous enseignons le désaccord à l'inverse : Rabbi Yo'hanan dit qu'on ne sanctifiait pas les premiers-nés au désert, et Rech Lakich qu'on les sanctifiait.
+
+> אמר ליה רב מרדכי לרב אשי אתון הכי מתניתו לה אנן איפכא מתנינן לה רבי יוחנן אמר לא קדשו בכורות במדבר וריש לקיש אמר קדשו בכורות במדבר
+
+**(g)** **Rav Achi** — Inverses-tu aussi les objections ? Et Rabbi Elazar aurait expliqué Rech Lakich, et l'aurait vu en rêve ?
+
+> אמר ליה ואפכית נמי תיובתא ואפכיתו לה להא דרבי אלעזר
+
+→ *L'objection est biographique : Rabbi Elazar était le disciple de Rabbi Yo'hanan, pas de Rech Lakich.*
+
+**(h)** **Rav Mordekhaï** — Rabbi Yo'hanan veut dire qu'ils n'avaient pas *besoin* d'être consacrés — ils l'étaient d'office. Rech Lakich tient qu'ils étaient profanes, donc qu'il fallait les consacrer.
+
+> א"ל לא קדשו לא הוצרכו ליקדש
+
+**(i)** **Rav Achi** — Mais alors c'est exactement notre version !
+
+> אי הכי היינו דידן
+
+**(i.1)** — Bien qu'il n'y ait aucune différence de halakha, Rav Mordekhaï a transmis le débat dans d'autres mots — car on doit employer les termes mêmes de son maître.
+
+> קמ"ל חייב אדם לומר בלשון רבו
+
+→ *C'est la pointe de la sugya : la formulation se transmet, même quand elle ne change rien au fond.*
 
 > אָמַר רַבִּי אֶלְעָזָר: רַבִּי יוֹחָנָן חֲזַאי בְּחֶילְמָא דְּמִילְּתָא מְעַלַּיְתָא אָמֵינָא, אָמַר קְרָא ״לִי יִהְיוּ״ — בַּהֲוָיָיתָן יְהוּ.
 >
@@ -24,21 +83,114 @@ Rabbi Yo'hanan et Rech Lakich s'opposent sur la persistance de la sainteté des 
 > *5a:7* — Pour enseigner qu'un homme doit redire ce qu'il a reçu **dans les termes mêmes de son maître**.
 
 
-## 2. Kontrokos I — les trois cents Lévites manquants
+## 2. L'argent remis pour le Tabernacle — et pourquoi l'ânon
 
-*5a:8–9 · confrontation*
+*5a:8 – 5b:3 · confrontation, puis recherche de source*
 
-Un officier romain confronte Rabban Yo'hanan ben Zakkaï à un écart de comptes dans la Torah : 22 300 Lévites au détail, 22 000 au total.
+Un officier romain confronte Rabban Yo'hanan ben Zakkaï à deux écarts de comptes dans la Torah — le nombre des Lévites, puis l'argent du Tabernacle. Le second met en cause l'intégrité de Moïse, et la réponse oblige la Guemara à chercher sa source par trois tentatives dont deux échouent. Le sujet se referme sur la question de l'ânon, qui ramène au traité.
 
-## 3. Kontrokos II — les comptes de Moïse et le mané double
+### La trame
 
-*5a:10 – 5b:2 · confrontation, puis recherche de source*
+**(a)** **Question (un officier romain)** — En additionnant les Lévites descendant de chaque fils de Lévi, on trouve 22 300. Mais un verset n'en donne que 22 000. Où sont passés les 300 autres ?
 
-Le second écart met en cause l'intégrité de Moïse. La réponse — le mané du sanctuaire valait le double — oblige la Guemara à en chercher la source, par trois tentatives dont deux échouent.
+> שאל קונטרוקוס השר את רבן יוחנן בן זכאי בפרטן של לוים אתה מוצא עשרים ושנים אלף ושלש מאות בכללן אתה מוצא עשרים ושנים אלף ושלש מאות להיכן הלכו
+
+**(b)** **Réponse (Rabban Yo'hanan ben Zakkaï)** — Ces 300 étaient eux-mêmes premiers-nés. Seuls les 22 000 Lévites non premiers-nés dispensaient les premiers-nés d'Israël du rachat.
+
+> א"ל אותן שלש מאות בכורות היו ואין בכור מפקיע בכור
+
+**(c)** **Question** — Pour quelle raison ?
+
+> מאי טעמא
+
+**(d)** **Réponse (Abayé)** — Il suffit au premier-né de se dispenser lui-même ; il ne peut en dispenser un autre par surcroît.
+
+> אמר אביי דיו לבכור שיפקיע קדושת עצמו
+
+**(e)** **Question (l'officier)** — Chacun des 603 550 Israélites a donné un *beka*, un demi-sicle par tête, pour le Tabernacle — soit 201 kikar et 11 manés.
+
+> ועוד שאלו בגיבוי כסף אתה מוצא מאתים ואחת ככר ואחת עשרה מנה דכתיב (שמות לח) בקע לגלגלת מחצית השקל בשקל הקדש וגו'
+
+→ *Un mané vaut 25 sicles, un kikar 60 manés : d'où le total.*
+
+**(e.1)** — Or 100 kikar seulement ont servi, « cent talents d'argent pour fondre » — un par socle.
+
+> ובנתינת הכסף אתה מוצא מאת ככר דכתיב (שמות לח) ויהי מאת ככר הכסף לצקת וגו'
+
+**(e.2)** — Ton maître Moïse était donc un voleur, un joueur de dés, ou incapable de compter. Il a gardé plus de la moitié et rendu moins de la moitié.
+
+> משה רבכם גנב היה או קוביוסטוס היה או אינו בקי בחשבונות נתן מחצה ונטל מחצה ומחצה שלם לא החזיר
+
+**(f)** **Réponse (Rabban Yo'hanan ben Zakkaï)** — C'était un trésorier fidèle, et il ne s'est pas trompé : le mané du sanctuaire vaut le double du mané courant — et le kikar aussi.
+
+> אמר לו משה רבינו גיזבר נאמן היה ובקי בחשבונות היה ומנה של קודש כפול היה
+
+**(g)** **Question (Rav A'haï)** — Quelle était au fond l'objection de l'officier ? « Cent talents d'argent pour fondre » laisse entendre que le reste avait été versé au trésor du sanctuaire.
+
+> הוי בה רב אחאי מאי קא קשיא ליה ויהי מאת ככר הכסף לצקת וגו' הנך לצקת ואינך בי גזא
+
+**(h)** **Réponse** — Un autre verset dit aussi : « et l'argent des dénombrés de l'assemblée fut de cent talents ».
+
+> כתב קרא אחרינא (שמות לח) וכסף פקודי העדה מאת ככר וגו'
+
+→ *Le second verset donne le total collecté, non l'affectation : l'échappatoire tombe.*
+
+**(i)** **Question** — Quelle est la source de Rabban Yo'hanan ben Zakkaï pour dire que le mané du sanctuaire est double ?
+
+> ודקא"ל מנה של קודש כפול היה מנא ליה
+
+**(j)** **Réponse 1** — Il y avait 71 manés ordinaires au-delà des 100 kikar, et la Torah les appelle « 1 775 sicles ». Si le mané du sanctuaire valait celui du profane, elle aurait dit : un kikar et 11 manés.
+
+> אילימא מיניה שהרי כאן שבעים ואחד מנה (שמות לח) ואת האלף ושבע מאות וחמשה ושבעים עשה ווים לעמודים ולא מנאן הכתוב אלא בפרוטרוט ואם איתא מאה ואחד ככר ואחת עשרה מנה מיבעי ליה אלא מדלא מנאן הכתוב אלא בפרוטרוט ש"מ מנה של קודש כפול היה
+
+**(k)** **Rejet** — Peut-être la Torah ne compte-t-elle en kikar que les nombres ronds, et non un kikar isolé.
+
+> ודילמא כללי קחשיב בככרי פרטי לא קא חשיב בככרי
+
+**(l)** **Réponse 2** — La Torah appelle le cuivre « soixante-dix kikar et 2 400 sicles ». Si le mané n'était pas double, elle aurait dit : un kikar et 36 manés.
+
+> אלא מהכא (שמות לח) ונחושת התנופה שבעים ככר ואלפים וארבע מאות שקל שהרי כאן תשעים וששה מנה ולא מנאן הכתוב אלא בפרוטרוט שמע מינה מנה של קודש כפול היה
+
+**(m)** **Rejet** — Peut-être ne regroupe-t-elle les sicles en kikar que pour un nombre rond de kikar — un multiple de dix.
+
+> ודילמא פרטא רבה קא חשיב בככרי פרטא זוטא לא קחשיב בככרי
+
+**(n)** **Réponse 3 (Rav 'Hisda)** — Il l'apprend d'Ézéchiel 45:12 : « vingt sicles, vingt-cinq sicles, dix et cinq sicles feront votre mané ».
+
+> אלא אמר רב חסדא מהכא (יחזקאל מה) והשקל עשרים גרה עשרים שקלים חמשה ועשרים שקלים עשרה וחמשה שקל המנה יהיה לכם
+
+**(n.1)** **Question** — Mais un mané vaut cent dinars, non deux cent quarante — ce que donneraient soixante sicles.
+
+> (דף ה,ב) והא מאתן וארבעין הויין
+
+**(n.2)** **Réponse** — Ce verset enseigne trois choses à la fois.
+
+> אלא ש"מ
+
+→ *Le mané d'Ézéchiel est double ; une communauté peut majorer les mesures ; et pas de plus d'un sixième, calculé sur la somme finale.*
+
+**(o)** **Question (R. 'Hanina)** — Pourquoi l'ânon premier-né diffère-t-il du poulain ou du chamelon premiers-nés ?
+
+> אמר ר' חנינא שאלתי את ר' אליעזר בבית מותבא רבא מה נשתנו פטרי חמורים מפטרי סוסים וגמלים
+
+**(p)** **Réponse 1 (R. Eliézer)** — C'est un décret de l'Écriture — on n'en connaît pas la raison.
+
+> א"ל גזירת הכתוב היא
+
+**(q)** **Réponse 2 (R. Eliézer)** — Parce que les ânes ont aidé Israël à emporter les richesses d'Égypte : chacun en avait au moins quatre-vingt-dix, chargés d'or et d'argent.
+
+> ועוד שסייעו ישראל בשעת יציאתם ממצרים שאין לך כל אחד ואחד מישראל שלא היו עמו תשעים חמורים לובים טעונים מכספה וזהבה של מצרים
+
+→ *Deux réponses au lieu d'une : la seconde donne un motif sans retirer au verset son caractère de décret.*
 
 > וּבִנְתִינַת הַכֶּסֶף אַתָּה מוֹצֵא מְאַת כִּכָּר, דִּכְתִיב: ״וַיְהִי מְאַת כִּכַּר הַכֶּסֶף לָצֶקֶת וְגוֹ׳״. מֹשֶׁה רַבְּכֶם גַּנָּב הָיָה, אוֹ קוּבְיוּסְטוּס הָיָה, אוֹ אֵינוֹ בָּקִי בְּחֶשְׁבּוֹנוֹת? נָתַן מֶחֱצָה וְנָטַל מֶחֱצָה, וּמֶחֱצָה שָׁלֵם לֹא הֶחֱזִיר.
 >
 > *5a:11* — « Moïse ton maître était-il un voleur, ou un *kouveyoustous*, ou ne savait-il pas compter ? »
+
+
+> אָמַר רַבִּי חֲנִינָא: שָׁאַלְתִּי אֶת רַבִּי אֱלִיעֶזֶר בְּבֵית מוֹתְבָא רַבָּא, מָה נִשְׁתַּנּוּ פִּטְרֵי חֲמוֹרִים מִפִּטְרֵי סוּסִים וּגְמַלִּים? אָמַר לִי: גְּזֵירַת הַכָּתוּב הִיא, וְעוֹד שֶׁסִּיְּיעוּ יִשְׂרָאֵל בִּשְׁעַת יְצִיאָתָם מִמִּצְרַיִם, שֶׁאֵין לָךְ כׇּל אֶחָד וְאֶחָד מִיִּשְׂרָאֵל שֶׁלֹּא הָיוּ עִמּוֹ תִּשְׁעִים חֲמוֹרִים לוּבִים טְעוּנִים מִכַּסְפָּהּ וּזְהָבָהּ שֶׁל מִצְרַיִם.
+>
+> *5b:3* — « C'est un décret de l'Écriture. Et de plus, les ânes ont secouru Israël à la sortie d'Égypte » — chargés de l'argent et de l'or des Égyptiens.
 
 
 **La recherche de la source du « mané double »**
@@ -60,16 +212,63 @@ Tossafot (5a:11, s.v. *kouveyoustous*) cite Rashi ('Houlin 91b) qui rend le mot 
 - **Tossafot (Bava Batra 92b)** : voler le demi-sicle *équivaut* à un rapt, car il était perçu dans le cadre du dénombrement — chaque demi-sicle représentait une personne.
 - **Chitta Mekoubetset (§5)** : l'officier visait deux écarts distincts — « voleur » pour l'argent, « *kouveyoustous* » pour le nombre des Lévites, qu'il venait d'évoquer.
 
-## 4. Rabbi 'Hanina devant Rabbi Eliézer
+## 3. Le sens de certains noms
 
-*5b:3–6 · quatre questions*
+*5b:4–6 · quatre questions*
 
-Quatre questions posées dans la grande maison d'étude. La première revient au sujet du traité ; les trois autres opposent une lecture littérale des noms de lieux à une lecture allusive.
+Trois questions sur des noms, qui suivent toutes le même patron : Rabbi Eliézer lit au ras du mot, Rabbi Yehochoua y entend une allusion.
 
-> אָמַר רַבִּי חֲנִינָא: שָׁאַלְתִּי אֶת רַבִּי אֱלִיעֶזֶר בְּבֵית מוֹתְבָא רַבָּא, מָה נִשְׁתַּנּוּ פִּטְרֵי חֲמוֹרִים מִפִּטְרֵי סוּסִים וּגְמַלִּים? אָמַר לִי: גְּזֵירַת הַכָּתוּב הִיא, וְעוֹד שֶׁסִּיְּיעוּ יִשְׂרָאֵל בִּשְׁעַת יְצִיאָתָם מִמִּצְרַיִם, שֶׁאֵין לָךְ כׇּל אֶחָד וְאֶחָד מִיִּשְׂרָאֵל שֶׁלֹּא הָיוּ עִמּוֹ תִּשְׁעִים חֲמוֹרִים לוּבִים טְעוּנִים מִכַּסְפָּהּ וּזְהָבָהּ שֶׁל מִצְרַיִם.
->
-> *5b:3* — « C'est un décret de l'Écriture. Et de plus, les ânes ont secouru Israël à la sortie d'Égypte » — chargés de l'argent et de l'or des Égyptiens.
+### La trame
 
+**(a)** **Question (R. 'Hanina)** — Que signifie « Refidim », le lieu où Amalek attaqua Israël ?
+
+> ועוד שאלתיו מאי לשון רפידים
+
+**(b)** **Réponse (R. Eliézer)** — C'est son nom.
+
+> ואמר לי רפידים שמה
+
+**(c)** — Des tannaïm s'opposent comme R. 'Hanina — qui suppose que ce n'était pas son nom — et R. Eliézer.
+
+> כתנאי
+
+**(c.1)** **Baraïta (R. Eliézer)** — Refidim est son nom.
+
+> ר' אליעזר אומר רפידים שמה
+
+**(c.2)** **R. Yehochoua** — Le lieu s'appelle Refidim parce qu'Israël s'y est *relâché* (*rifou*) de la Torah — « ils ne se sont pas retournés vers leurs enfants, par relâchement des mains ».
+
+> ר' יהושע אומר שריפו עצמן מדברי תורה וכן הוא אומר (ירמיהו מז) לא הפנו אבות אל בנים מרפיון ידים
+
+**(d)** **Question (R. 'Hanina)** — Que signifie « Chittim », où les filles de Midian séduisirent Israël ?
+
+> ועוד שאלתיו מאי לשון שטים
+
+**(e)** **Réponse (R. Eliézer)** — C'est son nom.
+
+> ואמר לי שטים שמה
+
+**(f)** — Des tannaïm s'opposent de la même façon.
+
+> כתנאי
+
+→ *Le patron se répète : question sur un nom, réponse littérale, puis un tanna qui y entend une allusion.*
+
+**(f.1)** **Baraïta (R. Eliézer)** — Chittim est son nom.
+
+> ר' אליעזר אומר שטים שמה
+
+**(f.2)** **R. Yehochoua** — Il s'appelle Chittim parce qu'Israël s'y livra à la *sottise* (*chetout*).
+
+> רבי יהושע אומר שנתעסקו בדברי שטות
+
+**(g)** **R. Eliézer** — « Et elles appelèrent le peuple aux sacrifices de leurs dieux » — elles vinrent à leur rencontre de leur corps même, dévêtues.
+
+> (במדבר כה) ותקראן לעם לזבחי אלהיהן רבי אליעזר אומר ערומות פגעו בהן
+
+**(h)** **R. Yehochoua** — « *Vatikréna* » enseigne que les Israélites eurent des émissions (*keri*).
+
+> ר' יהושע אומר שנעשו כולן בעלי קריין:
 
 **Deux manières de lire un nom**
 
@@ -79,11 +278,145 @@ Quatre questions posées dans la grande maison d'étude. La première revient au
 | Chittim | c'est le nom du lieu | de *chetout* : ils se sont livrés à la **sottise** |
 | *vatikréna* | des femmes nues vinrent à leur rencontre | de *kerayin* : ils devinrent sujets à des **émissions** |
 
-## 5. MICHNA — le petit qui ne ressemble pas à sa mère
+## 4. Le nidmeh — le petit qui ne ressemble pas à sa mère
 
-*5b:7–8 · michna*
+*5b:7–29 · michna, puis dérivation*
 
-Deux règles distinctes : la primogéniture exige la ressemblance ; la consommation suit l'origine.
+La michna pose deux régimes distincts, puis la Guemara cherche la source de l'exigence de ressemblance et découvre deux dérivations concurrentes.
+
+### La trame
+
+**(a)** **Michna** — Une vache qui met bas ce qui ressemble à un âne, une ânesse qui met bas un cheval : exemptes de la primogéniture.
+
+> (משנה) פרה שילדה מין חמור וחמור שילדה כמין סוס פטורה מן הבכורה
+
+**(a.1)** — Il est dit deux fois « premier-né d'âne » : la mère et le petit doivent tous deux être des ânes pour que la mitsva s'applique.
+
+> שנאמר (שמות יג) פטר חמור (שמות לד) פטר חמור שני פעמים עד שיהא היולד חמור והנולד חמור
+
+**(b)** **Question** — Ceux-là peuvent-ils être consommés ?
+
+> ומה הם באכילה
+
+**(c)** **Réponse** — Un animal pur qui met bas un impur : permis. Un impur qui met bas un pur : interdit.
+
+> בהמה טהורה שילדה כמין בהמה טמאה מותר באכילה וטמאה שילדה כמין בהמה טהורה אסור באכילה
+
+**(c.1)** — Ce qui vient de l'impur est impur ; ce qui vient du pur est pur.
+
+> שהיוצא מן הטמא טמא והיוצא מן הטהור טהור:
+
+→ *La primogéniture regarde la ressemblance, la consommation regarde l'origine : deux régimes distincts.*
+
+**(d)** **Guemara — michna (16b)** — Une brebis qui met bas une chèvre, ou l'inverse : c'est un *nidmeh*, exempt de la primogéniture.
+
+> תנן התם רחל שילדה מין עז ועז שילדה מין רחל פטור מן הבכורה
+
+**(d.1)** — Mais si le petit ressemble à sa mère par certains caractères, il a la sainteté du premier-né.
+
+> ואם יש בו מקצת סימנין חייב
+
+**(e)** **Question** — D'où cela se tire-t-il ?
+
+> מנא הני מילי
+
+**(f)** **Réponse (Rav Yehouda)** — « Mais le premier-né du bœuf » : un veau n'a la sainteté du premier-né que si lui et sa mère sont du gros bétail.
+
+> אמר רב יהודה דאמר קרא (במדבר יח) אך בכור שור שיהא הוא שור ובכורו שור
+
+**(f.1)** — « Premier-né de la brebis » et « premier-né de la chèvre » enseignent de même pour l'agneau et le chevreau.
+
+> בכור כשב שיהא הוא כשב ובכורו כשב בכור עז שיהא הוא עז ובכורו עז
+
+**(f.2)** **Objection possible** — Peut-être un *nidmeh* n'a-t-il aucune sainteté, même s'il ressemble à sa mère par certains caractères.
+
+> יכול אפי' יש בו מקצת סימנין
+
+**(f.3)** **Rejet** — « Mais » (*akh*) restreint : l'exemption ne vaut que s'il n'y a aucune ressemblance.
+
+> ת"ל אך חלק
+
+→ *Le Sefas Emes propose une autre lecture : c'est une seconde exclusion, et deux exclusions sur un même point viennent toujours inclure.*
+
+**(g)** **Question** — Mais notre tanna, lui, tire le cas de la vache de la répétition de « premier-né d'âne » !
+
+> והא תנא פטר פטר קנסיב לה לפרה
+
+**(h)** **Réponse** — Rav Yehouda explique selon Rabbi Yossi le Galiléen.
+
+> הוא דאמר כרבי יוסי הגלילי
+
+**(h.1)** **Baraïta (R. Yossi le Galiléen)** — « Mais le premier-né du bœuf » : le veau n'a la sainteté que si lui et sa mère sont du gros bétail ; de même pour l'agneau et le chevreau.
+
+> דתניא ר' יוסי הגלילי אומר אך בכור שור עד שיהא הוא שור ובכורו שור בכור כשב עד שיהא הוא כשב ובכורו כשב או בכור עז עד שיהא הוא עז ובכורו עז
+
+**(h.2)** **Objection possible** — Peut-être aucune sainteté, même avec une ressemblance partielle.
+
+> יכול אפי' יש בו מקצת סימנין
+
+**(h.3)** **Rejet** — « Mais » restreint l'exemption.
+
+> ת"ל אך חלק
+
+**(i)** **Question** — Sur quoi les tannaïm s'opposent-ils donc ?
+
+> במאי קמיפלגי
+
+**(j)** **Réponse** — Notre tanna tient qu'un verset exempte le *nidmeh* pour l'ânon — sainteté *de valeur* — et qu'il en va de même pour la sainteté *intrinsèque*.
+
+> תנא דידן סבר גלי רחמנא בקדושת דמים וה"ה בקדושת הגוף
+
+**(j.1)** — Rabbi Yossi tient l'inverse : le verset exempte pour la sainteté intrinsèque, et il en va de même pour la sainteté de valeur.
+
+> ור' יוסי סבר גלי רחמנא בקדושת הגוף וה"ה בקדושת דמים וגמר קדושת דמים מקדושת הגוף
+
+→ *Même règle, sens de déduction opposé — c'est tout le désaccord.*
+
+**(k)** **Question** — Comment notre tanna interprète-t-il alors « premier-né… premier-né » dans le verset de Rabbi Yossi ?
+
+> ותנא דידן האי בכור בכור מאי עביד ליה
+
+**(l)** **Réponse** — Cela enseigne la règle de Rabbi Yossi fils de Rabbi 'Hanina.
+
+> מיבעי ליה לכדר' יוסי בר' חנינא
+
+**(l.1)** **R. Yossi b. R. 'Hanina** — La Torah commande explicitement de brûler les parts sacrificielles pour chacun des trois premiers-nés purs : on n'aurait pu le déduire d'un seul.
+
+> דאמר ר' יוסי בר' חנינא למה נאמרו אימורין בבכור שור אימורין בבכור כשב אימורין בבכור עז צריכא
+
+**(l.2)** — Du bœuf seul, on aurait dit : c'est parce que ses libations sont plus abondantes — six log de vin contre trois.
+
+> דאי כתב רחמנא בבכור שור שכן נתרבה בנסכים
+
+**(l.3)** — De la brebis seule : c'est parce que sa queue est offerte, à la différence des autres.
+
+> כשב שכן נתרבה באליה
+
+**(l.4)** — De la chèvre seule : c'est parce que l'idolâtre involontaire doit apporter une chèvre en expiatoire.
+
+> בעז שכן נתרבה אצל {עבודה זרה} ביחיד
+
+**(l.5)** **Objection possible** — Soit, aucun ne se déduit d'un seul autre. Mais peut-être des deux autres réunis ?
+
+> חדא מחדא לא אתיא תיתי חדא מתרתי
+
+**(l.6)** **Rejet — question** — Lequel se déduirait des deux autres ?
+
+> בהי לא ליכתוב
+
+→ *La Guemara reprend chaque cas : les deux autres ont toujours une particularité qui interdit la déduction.*
+
+**(l.7)** **Conclusion** — La Torah doit donc les écrire tous les trois.
+
+> הילכך צריכי
+
+**(m)** **Question implicite** — Rabbi Yossi le Galiléen devrait en convenir. Pourquoi interprète-t-il autrement ?
+
+> ורבי יוסי הגלילי
+
+**(n)** **Réponse** — S'il n'y avait que cela, le verset pouvait écrire « mais un premier-né de bœuf, de brebis et de chèvre ». Pourquoi répéter « premier-né » ? C'est donc qu'il faut que le petit soit du gros bétail — et sa mère aussi.
+
+> אם כן ליכתוב קרא אך בכור שור כשב ועז בכור בכור למה לי אלא לאו ש"מ עד שיהא הוא שור ובכורו שור
 
 > מַתְנִי׳ פָּרָה שֶׁיָּלְדָה מִין חֲמוֹר, וַחֲמוֹר שֶׁיָּלְדָה כְּמִין סוּס — פְּטוּרָה מִן הַבְּכוֹרָה, שֶׁנֶּאֱמַר: ״פֶּטֶר חֲמוֹר״ ״פֶּטֶר חֲמוֹר״ שְׁנֵי פְּעָמִים, עַד שֶׁיְּהֵא הַיּוֹלֵד חֲמוֹר וְהַנּוֹלָד חֲמוֹר.
 >
@@ -94,12 +427,6 @@ Deux règles distinctes : la primogéniture exige la ressemblance ; la consommat
 >
 > *5b:8* — Pour la **consommation**, la règle est inverse : ce qui sort de l'impur est impur, ce qui sort du pur est pur.
 
-
-## 6. GUEMARA — d'où vient l'exigence de ressemblance
-
-*5b:9–29 · dérivation*
-
-La Guemara cherche la source de la règle, découvre deux dérivations concurrentes, puis explique ce que chaque tanna fait du verset de l'autre.
 
 **Le sens de la déduction**
 

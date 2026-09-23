@@ -85,11 +85,14 @@ def collecte(d: dict) -> dict:
                          "n_car": sum(len(x["he"]) for x in items)}
 
     # Kollel Iyun Hadaf
-    bg = ins = None
+    bg = ins = pts = None
     if d.get("dafyomi") and d.get("background"):
         s, p = d["dafyomi"]["slug"], d["dafyomi"]["prefix"]
         bg = K.background(s, p, d["daf"], COIL_CACHE)
         ins = K.insights(s, p, d["daf"], COIL_CACHE)
+        # La trame « point by point » : le squelette dialectique du daf.
+        # C'est elle qui sert d'ossature aux sugyot de la fiche.
+        pts = K.points(s, p, d["daf"], COIL_CACHE)
 
     return {
         "libelle": d["libelle"],
@@ -103,10 +106,12 @@ def collecte(d: dict) -> dict:
         "couverture": couverture,
         "background": bg,
         "insights": ins,
+        "points": pts,
         "sources": {
             "sefaria": [v["url"] for v in amudim.values()],
             "background": bg["url"] if bg else None,
             "insights": ins["url"] if ins else None,
+            "points": pts["url"] if pts else None,
         },
     }
 
@@ -150,6 +155,14 @@ def main():
                   f"{len(b['girsa'])} variantes   [{b.get('lignes_daf')}]")
         else:
             print("  background : indisponible pour ce traité")
+        if doc["points"] and doc["points"].get("sujets"):
+            sj = doc["points"]["sujets"]
+            n = sum(len(x["etapes"]) for x in sj)
+            print(f"  trame      : {len(sj)} sujets, {n} étapes")
+            for x in sj:
+                print(f"     {x['n']}) {x['titre'][:58]}  ({len(x['etapes'])} étapes)")
+        elif doc["points"]:
+            print("  trame      : page indisponible")
         if doc["insights"]:
             print(f"  insights   : {len(doc['insights']['items'])} difficultés")
             for it in doc["insights"]["items"]:

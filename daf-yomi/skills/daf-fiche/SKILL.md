@@ -27,7 +27,8 @@ python3 "${CLAUDE_PLUGIN_ROOT}"/scripts/fetch_daf.py "Bekhorot 5"
 
 Écrit `fiches/<slug>.source.json` : araméen segmenté, traduction Davidson
 d'appui, **Rashi et Tossafot par l'API links**, glossaire indexé par ligne et
-variantes textuelles du Kollel Iyun Hadaf, difficultés (insights).
+variantes textuelles du Kollel Iyun Hadaf, difficultés (insights), et **la
+trame** — le *Point by Point Outline* du même Kollel.
 
 Lire le fichier en entier avant de rédiger. Noter en particulier
 `couverture` : le nombre réel de dibbourim de Rashi et Tossafot sur **ce** daf.
@@ -71,13 +72,48 @@ termes techniques sont translittérés *en italique* et glosés une fois.
 L'anglais de la collecte (Davidson) est un appui, pas la source : traduire
 depuis l'araméen et n'utiliser l'anglais que pour lever un doute.
 
-### `sugyot` — la structure
+### `sugyot` — partir de la trame, pas de zéro
 
-Découper le daf en mouvements réels. Un daf en a typiquement de 3 à 11. Pour
-chacun : ce qu'il cherche, comment l'argument avance, et où il aboutit.
+La collecte contient `points` : le daf déjà découpé par le Kollel en sujets et
+en étapes, **chaque étape étiquetée par son rôle logique** — *Question*,
+*Answer*, *Rejection*, *Suggestion*, *Conclusion* — et ancrée sur son lemme
+araméen.
+
+**Adopter ce découpage** plutôt que d'en inventer un. Il suit le fil du texte,
+là où un découpage par unités de sens s'en écarte. Sur Bekhorot 5, le Kollel
+fait 4 sujets là où un découpage libre en produit 6 — et rattache la question
+de l'ânon au sujet de l'argent, parce que c'est là qu'elle tombe dans le texte.
 
 `intro` sert B, `expose` sert B-light. `expose` est **un exposé, pas une
 traduction** : il rend compte de l'argument.
+
+### `etapes` — la trame traduite
+
+Chaque étape de la trame se rend ainsi :
+
+```json
+{"ref": "2.e.2", "role": "Question (l'officier)",
+ "texte": "Ton maître Moïse était donc un voleur…",
+ "note": "facultatif : une explication là où l'ossature reste sèche"}
+```
+
+- **`ref`** est l'identifiant de l'étape dans la trame collectée (`1.a`,
+  `1.a.1`, `2.e.2`…). Le script s'en sert pour aller chercher le **lemme
+  araméen** : il n'est donc jamais saisi, comme pour les citations.
+- **`role`** peut reprendre celui du Kollel ou le préciser en français.
+- **`note`**, signalée par `→` à l'impression, sert là où la trame seule est
+  trop sèche. En mettre peu : une dizaine pour tout un daf.
+
+Le script **refuse d'assembler** si une `ref` ne correspond à aucune étape de
+la trame, ou si une étape n'en porte pas.
+
+La trame apporte aussi ce que Sefaria n'a pas : les variantes de lecture des
+commentateurs, glissées entre parenthèses — « texte du Roch : un veau », « pour
+Tossafot : l'âne né de la vache », une lecture du Sefas Emes. Les reprendre
+quand elles éclairent.
+
+**Si la trame est absente** (page indisponible, ou traité sans pages Kollel
+comme Tamid), découper soi-même et se passer du champ `etapes`.
 
 ### Ce qui fait tenir B-light en 6 pages
 

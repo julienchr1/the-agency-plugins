@@ -13,20 +13,20 @@ Le daf **commence au milieu d'une discussion** entamée la veille : les premiers
 
 Entre les deux, deux morceaux inattendus : un officier romain qui accuse Moïse de malversation, et une série de questions sur des noms de lieux. Ce n'est pas une digression gratuite : le daf passe de la **sainteté des premiers-nés** au **rachat de l'ânon**, et ces récits font la charnière.
 
+Le découpage suivi ici est celui du *Point by Point Outline* du Kollel Iyun Hadaf : quatre sujets, qui suivent le fil du texte plutôt que les unités de sens.
+
 ## Carte du daf
 
 | # | sugya | où | nature |
 |---|---|---|---|
-| 1 | La sainteté des premiers-nés au désert | 5a:1–7 | débat amoraïque |
-| 2 | Kontrokos I — les trois cents Lévites manquants | 5a:8–9 | confrontation |
-| 3 | Kontrokos II — les comptes de Moïse et le mané double | 5a:10 – 5b:2 | confrontation, puis recherche de source |
-| 4 | Rabbi 'Hanina devant Rabbi Eliézer | 5b:3–6 | quatre questions |
-| 5 | MICHNA — le petit qui ne ressemble pas à sa mère | 5b:7–8 | michna |
-| 6 | GUEMARA — d'où vient l'exigence de ressemblance | 5b:9–29 | dérivation |
+| 1 | La sainteté du premier-né au désert (suite) | 5a:1–7 | débat amoraïque |
+| 2 | L'argent remis pour le Tabernacle — et pourquoi l'ânon | 5a:8 – 5b:3 | confrontation, puis recherche de source |
+| 3 | Le sens de certains noms | 5b:4–6 | quatre questions |
+| 4 | Le nidmeh — le petit qui ne ressemble pas à sa mère | 5b:7–29 | michna, puis dérivation |
 
 ---
 
-## 1. La sainteté des premiers-nés au désert
+## 1. La sainteté du premier-né au désert (suite)
 
 *5a:1–7 · débat amoraïque*
 
@@ -46,29 +46,26 @@ La sugya se referme sur un détail de transmission : **Rav Mordekhaï** rapporte
 
 ---
 
-## 2. Kontrokos I — les trois cents Lévites manquants
+## 2. L'argent remis pour le Tabernacle — et pourquoi l'ânon
 
-*5a:8–9 · confrontation*
+*5a:8 – 5b:3 · confrontation, puis recherche de source*
 
-**Kontrokos** relève un écart dans le texte même : le compte famille par famille donne **22 300** (Nombres 3:22-34), le total de la tribu **22 000** (Nombres 3:39). Où sont les 300 ?
+Deux objections de comptabilité, la seconde bien plus grave.
 
-La réponse déplace la question : le total ne compte que les Lévites **qui pouvaient racheter** un premier-né israélite. Les 300 restants étaient eux-mêmes premiers-nés — et un Lévite premier-né ne peut annuler la sainteté d'un autre. **Abayé** en donne la raison : il lui suffit d'annuler la sienne. Ce n'est donc pas un écart, mais deux comptes de nature différente.
+La première porte sur les Lévites : 22 300 au détail, 22 000 au total. La réponse déplace la question — le total ne compte que ceux **qui pouvaient racheter**, les 300 restants étant eux-mêmes premiers-nés.
 
----
+La seconde attaque Moïse : 201 talents collectés, 100 versés. Réponse — le mané du sanctuaire valait le double. **Mais la Guemara ne s'en contente pas** et cherche d'où on le sait, écartant deux preuves avant celle de Rav 'Hisda tirée d'Ézéchiel 45:12. Au passage, une règle générale : une communauté peut majorer les mesures, pas de plus d'un sixième.
 
-## 3. Kontrokos II — les comptes de Moïse et le mané double
-
-*5a:10 – 5b:2 · confrontation, puis recherche de source*
-
-Kontrokos calcule que la collecte du demi-sicle donne **201 talents et 11 manés** (Exode 38:26), alors que le texte n'en verse que **100** au Tabernacle (Exode 38:25-27).
-
-La réponse de Rabban Yo'hanan ben Zakkaï tient en une phrase : **le mané du sanctuaire valait le double** — 50 sicles au lieu de 25. Les comptes tombent juste.
-
-**Mais la Guemara ne s'en contente pas.** Le reste de la sugya cherche *d'où* on le sait, et **écarte deux preuves** avant d'en accepter une.
+Le sujet s'achève sur Rabbi 'Hanina : pourquoi l'ânon se rachète-t-il, et non le poulain ni le chamelon ? Décret de l'Écriture — et les ânes ont porté les richesses d'Égypte.
 
 > וּבִנְתִינַת הַכֶּסֶף אַתָּה מוֹצֵא מְאַת כִּכָּר, דִּכְתִיב: ״וַיְהִי מְאַת כִּכַּר הַכֶּסֶף לָצֶקֶת וְגוֹ׳״. מֹשֶׁה רַבְּכֶם גַּנָּב הָיָה, אוֹ קוּבְיוּסְטוּס הָיָה, אוֹ אֵינוֹ בָּקִי בְּחֶשְׁבּוֹנוֹת? נָתַן מֶחֱצָה וְנָטַל מֶחֱצָה, וּמֶחֱצָה שָׁלֵם לֹא הֶחֱזִיר.
 >
 > *5a:11* — « Moïse ton maître était-il un voleur, ou un *kouveyoustous*, ou ne savait-il pas compter ? »
+
+
+> אָמַר רַבִּי חֲנִינָא: שָׁאַלְתִּי אֶת רַבִּי אֱלִיעֶזֶר בְּבֵית מוֹתְבָא רַבָּא, מָה נִשְׁתַּנּוּ פִּטְרֵי חֲמוֹרִים מִפִּטְרֵי סוּסִים וּגְמַלִּים? אָמַר לִי: גְּזֵירַת הַכָּתוּב הִיא, וְעוֹד שֶׁסִּיְּיעוּ יִשְׂרָאֵל בִּשְׁעַת יְצִיאָתָם מִמִּצְרַיִם, שֶׁאֵין לָךְ כׇּל אֶחָד וְאֶחָד מִיִּשְׂרָאֵל שֶׁלֹּא הָיוּ עִמּוֹ תִּשְׁעִים חֲמוֹרִים לוּבִים טְעוּנִים מִכַּסְפָּהּ וּזְהָבָהּ שֶׁל מִצְרַיִם.
+>
+> *5b:3* — « C'est un décret de l'Écriture. Et de plus, les ânes ont secouru Israël à la sortie d'Égypte » — chargés de l'argent et de l'or des Égyptiens.
 
 
 **La recherche de la source du « mané double »**
@@ -92,18 +89,11 @@ Tossafot (5a:11, s.v. *kouveyoustous*) cite Rashi ('Houlin 91b) qui rend le mot 
 
 ---
 
-## 4. Rabbi 'Hanina devant Rabbi Eliézer
+## 3. Le sens de certains noms
 
-*5b:3–6 · quatre questions*
+*5b:4–6 · quatre questions*
 
-**La première question ramène au sujet du traité** : pourquoi l'ânon se rachète-t-il, et non le poulain ou le chamelon, tous également impurs ?
-
-Les trois autres portent sur des noms et suivent toutes le même patron, qui est le vrai intérêt du passage. Rabbi Eliézer lit le texte **au ras du mot** ; Rabbi Yehochoua y entend une **allusion**.
-
-> אָמַר רַבִּי חֲנִינָא: שָׁאַלְתִּי אֶת רַבִּי אֱלִיעֶזֶר בְּבֵית מוֹתְבָא רַבָּא, מָה נִשְׁתַּנּוּ פִּטְרֵי חֲמוֹרִים מִפִּטְרֵי סוּסִים וּגְמַלִּים? אָמַר לִי: גְּזֵירַת הַכָּתוּב הִיא, וְעוֹד שֶׁסִּיְּיעוּ יִשְׂרָאֵל בִּשְׁעַת יְצִיאָתָם מִמִּצְרַיִם, שֶׁאֵין לָךְ כׇּל אֶחָד וְאֶחָד מִיִּשְׂרָאֵל שֶׁלֹּא הָיוּ עִמּוֹ תִּשְׁעִים חֲמוֹרִים לוּבִים טְעוּנִים מִכַּסְפָּהּ וּזְהָבָהּ שֶׁל מִצְרַיִם.
->
-> *5b:3* — « C'est un décret de l'Écriture. Et de plus, les ânes ont secouru Israël à la sortie d'Égypte » — chargés de l'argent et de l'or des Égyptiens.
-
+Trois noms — *Refidim*, *Chittim*, *vatikréna* — et à chaque fois la même opposition. Rabbi Eliézer lit **au ras du mot** : c'est le nom du lieu. Rabbi Yehochoua y entend une **allusion**. Ce n'est pas un désaccord d'érudition mais deux manières de lire, et c'est le vrai intérêt du passage.
 
 **Deux manières de lire un nom**
 
@@ -115,11 +105,17 @@ Les trois autres portent sur des noms et suivent toutes le même patron, qui est
 
 ---
 
-## 5. MICHNA — le petit qui ne ressemble pas à sa mère
+## 4. Le nidmeh — le petit qui ne ressemble pas à sa mère
 
-*5b:7–8 · michna*
+*5b:7–29 · michna, puis dérivation*
 
 Deux régimes dans une même michna : la **primogéniture** exige la ressemblance, la **consommation** suit l'origine. Il ne faut pas les confondre — c'est tout l'objet de la Guemara qui suit.
+
+La Guemara découvre **deux dérivations concurrentes** : le tanna de notre michna part de « premier-né d'âne » répété (Exode 13:13 et 34:20) ; Rabbi Yossi le Galiléen part de Nombres 18:17. Dans les deux cas, le mot *akh* (« mais ») introduit une restriction : si le petit a **certains** caractères de sa mère, il est bien soumis à la primogéniture.
+
+Le désaccord porte sur le **sens de la déduction**. La Guemara demande ensuite à chacun ce qu'il fait du verset de l'autre — et c'est ce qui ouvre la fin du daf, sur la répétition des parts sacrificielles (bœuf, brebis, chèvre), dont Rabbi Yossi fils de Rabbi 'Hanina démontre qu'aucune ne peut se déduire des deux autres.
+
+Le daf s'arrête sur une objection encore ouverte : peut-être « premier-né d'âne » indique-t-il seulement que l'ânon se rachète **par un agneau**.
 
 > מַתְנִי׳ פָּרָה שֶׁיָּלְדָה מִין חֲמוֹר, וַחֲמוֹר שֶׁיָּלְדָה כְּמִין סוּס — פְּטוּרָה מִן הַבְּכוֹרָה, שֶׁנֶּאֱמַר: ״פֶּטֶר חֲמוֹר״ ״פֶּטֶר חֲמוֹר״ שְׁנֵי פְּעָמִים, עַד שֶׁיְּהֵא הַיּוֹלֵד חֲמוֹר וְהַנּוֹלָד חֲמוֹר.
 >
@@ -130,18 +126,6 @@ Deux régimes dans une même michna : la **primogéniture** exige la ressemblanc
 >
 > *5b:8* — Pour la **consommation**, la règle est inverse : ce qui sort de l'impur est impur, ce qui sort du pur est pur.
 
-
----
-
-## 6. GUEMARA — d'où vient l'exigence de ressemblance
-
-*5b:9–29 · dérivation*
-
-La Guemara découvre **deux dérivations concurrentes** : le tanna de notre michna part de « premier-né d'âne » répété (Exode 13:13 et 34:20) ; Rabbi Yossi le Galiléen part de Nombres 18:17. Dans les deux cas, le mot *akh* (« mais ») introduit une restriction : si le petit a **certains** caractères de sa mère, il est bien soumis à la primogéniture.
-
-Le désaccord porte sur le **sens de la déduction**. La Guemara demande ensuite à chacun ce qu'il fait du verset de l'autre — et c'est ce qui ouvre la fin du daf, sur la répétition des parts sacrificielles (bœuf, brebis, chèvre), dont Rabbi Yossi fils de Rabbi 'Hanina démontre qu'aucune ne peut se déduire des deux autres.
-
-Le daf s'arrête sur une objection encore ouverte : peut-être « premier-né d'âne » indique-t-il seulement que l'ânon se rachète **par un agneau**.
 
 **Le sens de la déduction**
 
