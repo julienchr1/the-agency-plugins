@@ -1,0 +1,234 @@
+{
+  "source": "https://www.dafyomi.co.il/ (Kollel Iyun Hadaf)",
+  "url_pattern": "https://www.dafyomi.co.il/{slug}/backgrnd/{prefix}-in-{daf:03d}.htm",
+  "generated_by": "scripts/build_dafyomi_slugs.py",
+  "note": "Chaque entree a ete verifiee par une requete HTTP 200.",
+  "not_found": [],
+  "sans_pages_background": {
+    "Tamid": "dafyomi.co.il ne publie pas de pages background pour Tamid (verifie le 2026-09-17)."
+  },
+  "tractates": {
+    "Berakhot": {
+      "slug": "berachos",
+      "prefix": "br",
+      "last_daf": 64,
+      "verified_url": "https://www.dafyomi.co.il/berachos/backgrnd/br-in-003.htm"
+    },
+    "Shabbat": {
+      "slug": "shabbos",
+      "prefix": "sh",
+      "last_daf": 157,
+      "verified_url": "https://www.dafyomi.co.il/shabbos/backgrnd/sh-in-003.htm"
+    },
+    "Eruvin": {
+      "slug": "eruvin",
+      "prefix": "ev",
+      "last_daf": 105,
+      "verified_url": "https://www.dafyomi.co.il/eruvin/backgrnd/ev-in-003.htm"
+    },
+    "Pesachim": {
+      "slug": "pesachim",
+      "prefix": "ps",
+      "last_daf": 121,
+      "verified_url": "https://www.dafyomi.co.il/pesachim/backgrnd/ps-in-003.htm"
+    },
+    "Shekalim": {
+      "slug": "shekalim",
+      "prefix": "sk",
+      "last_daf": 22,
+      "verified_url": "https://www.dafyomi.co.il/shekalim/backgrnd/sk-in-003.htm"
+    },
+    "Yoma": {
+      "slug": "yoma",
+      "prefix": "yo",
+      "last_daf": 88,
+      "verified_url": "https://www.dafyomi.co.il/yoma/backgrnd/yo-in-003.htm"
+    },
+    "Sukkah": {
+      "slug": "sukah",
+      "prefix": "su",
+      "last_daf": 56,
+      "verified_url": "https://www.dafyomi.co.il/sukah/backgrnd/su-in-003.htm"
+    },
+    "Beitzah": {
+      "slug": "beitzah",
+      "prefix": "bt",
+      "last_daf": 40,
+      "verified_url": "https://www.dafyomi.co.il/beitzah/backgrnd/bt-in-003.htm"
+    },
+    "Rosh Hashanah": {
+      "slug": "rhashanah",
+      "prefix": "rh",
+      "last_daf": 35,
+      "verified_url": "https://www.dafyomi.co.il/rhashanah/backgrnd/rh-in-003.htm"
+    },
+    "Taanit": {
+      "slug": "taanis",
+      "prefix": "tn",
+      "last_daf": 31,
+      "verified_url": "https://www.dafyomi.co.il/taanis/backgrnd/tn-in-003.htm"
+    },
+    "Megillah": {
+      "slug": "megilah",
+      "prefix": "mg",
+      "last_daf": 32,
+      "verified_url": "https://www.dafyomi.co.il/megilah/backgrnd/mg-in-003.htm"
+    },
+    "Moed Katan": {
+      "slug": "mkatan",
+      "prefix": "mo",
+      "last_daf": 29,
+      "verified_url": "https://www.dafyomi.co.il/mkatan/backgrnd/mo-in-003.htm"
+    },
+    "Chagigah": {
+      "slug": "chagigah",
+      "prefix": "cg",
+      "last_daf": 27,
+      "verified_url": "https://www.dafyomi.co.il/chagigah/backgrnd/cg-in-003.htm"
+    },
+    "Yevamot": {
+      "slug": "yevamos",
+      "prefix": "ye",
+      "last_daf": 122,
+      "verified_url": "https://www.dafyomi.co.il/yevamos/backgrnd/ye-in-003.htm"
+    },
+    "Ketubot": {
+      "slug": "kesuvos",
+      "prefix": "ks",
+      "last_daf": 112,
+      "verified_url": "https://www.dafyomi.co.il/kesuvos/backgrnd/ks-in-003.htm"
+    },
+    "Nedarim": {
+      "slug": "nedarim",
+      "prefix": "nd",
+      "last_daf": 91,
+      "verified_url": "https://www.dafyomi.co.il/nedarim/backgrnd/nd-in-003.htm"
+    },
+    "Nazir": {
+      "slug": "nazir",
+      "prefix": "nz",
+      "last_daf": 66,
+      "verified_url": "https://www.dafyomi.co.il/nazir/backgrnd/nz-in-003.htm"
+    },
+    "Sotah": {
+      "slug": "sotah",
+      "prefix": "so",
+      "last_daf": 49,
+      "verified_url": "https://www.dafyomi.co.il/sotah/backgrnd/so-in-003.htm"
+    },
+    "Gittin": {
+      "slug": "gitin",
+      "prefix": "gi",
+      "last_daf": 90,
+      "verified_url": "https://www.dafyomi.co.il/gitin/backgrnd/gi-in-003.htm"
+    },
+    "Kiddushin": {
+      "slug": "kidushin",
+      "prefix": "kd",
+      "last_daf": 82,
+      "verified_url": "https://www.dafyomi.co.il/kidushin/backgrnd/kd-in-003.htm"
+    },
+    "Bava Kamma": {
+      "slug": "bkama",
+      "prefix": "bk",
+      "last_daf": 119,
+      "verified_url": "https://www.dafyomi.co.il/bkama/backgrnd/bk-in-003.htm"
+    },
+    "Bava Metzia": {
+      "slug": "bmetzia",
+      "prefix": "bm",
+      "last_daf": 119,
+      "verified_url": "https://www.dafyomi.co.il/bmetzia/backgrnd/bm-in-003.htm"
+    },
+    "Bava Batra": {
+      "slug": "bbasra",
+      "prefix": "bb",
+      "last_daf": 176,
+      "verified_url": "https://www.dafyomi.co.il/bbasra/backgrnd/bb-in-003.htm"
+    },
+    "Sanhedrin": {
+      "slug": "sanhedrin",
+      "prefix": "sn",
+      "last_daf": 113,
+      "verified_url": "https://www.dafyomi.co.il/sanhedrin/backgrnd/sn-in-003.htm"
+    },
+    "Makkot": {
+      "slug": "makos",
+      "prefix": "ma",
+      "last_daf": 24,
+      "verified_url": "https://www.dafyomi.co.il/makos/backgrnd/ma-in-003.htm"
+    },
+    "Shevuot": {
+      "slug": "shevuos",
+      "prefix": "sv",
+      "last_daf": 49,
+      "verified_url": "https://www.dafyomi.co.il/shevuos/backgrnd/sv-in-003.htm"
+    },
+    "Avodah Zarah": {
+      "slug": "azarah",
+      "prefix": "az",
+      "last_daf": 76,
+      "verified_url": "https://www.dafyomi.co.il/azarah/backgrnd/az-in-003.htm"
+    },
+    "Horayot": {
+      "slug": "horayos",
+      "prefix": "ho",
+      "last_daf": 14,
+      "verified_url": "https://www.dafyomi.co.il/horayos/backgrnd/ho-in-003.htm"
+    },
+    "Zevachim": {
+      "slug": "zevachim",
+      "prefix": "zv",
+      "last_daf": 120,
+      "verified_url": "https://www.dafyomi.co.il/zevachim/backgrnd/zv-in-003.htm"
+    },
+    "Menachot": {
+      "slug": "menachos",
+      "prefix": "mn",
+      "last_daf": 110,
+      "verified_url": "https://www.dafyomi.co.il/menachos/backgrnd/mn-in-003.htm"
+    },
+    "Chullin": {
+      "slug": "chulin",
+      "prefix": "ch",
+      "last_daf": 142,
+      "verified_url": "https://www.dafyomi.co.il/chulin/backgrnd/ch-in-003.htm"
+    },
+    "Bekhorot": {
+      "slug": "bechoros",
+      "prefix": "be",
+      "last_daf": 61,
+      "verified_url": "https://www.dafyomi.co.il/bechoros/backgrnd/be-in-003.htm"
+    },
+    "Arakhin": {
+      "slug": "erchin",
+      "prefix": "er",
+      "last_daf": 34,
+      "verified_url": "https://www.dafyomi.co.il/erchin/backgrnd/er-in-003.htm"
+    },
+    "Temurah": {
+      "slug": "temurah",
+      "prefix": "tm",
+      "last_daf": 34,
+      "verified_url": "https://www.dafyomi.co.il/temurah/backgrnd/tm-in-003.htm"
+    },
+    "Keritot": {
+      "slug": "kerisus",
+      "prefix": "kr",
+      "last_daf": 28,
+      "verified_url": "https://www.dafyomi.co.il/kerisus/backgrnd/kr-in-003.htm"
+    },
+    "Meilah": {
+      "slug": "meilah",
+      "prefix": "ml",
+      "last_daf": 22,
+      "verified_url": "https://www.dafyomi.co.il/meilah/backgrnd/ml-in-003.htm"
+    },
+    "Niddah": {
+      "slug": "nidah",
+      "prefix": "ni",
+      "last_daf": 73,
+      "verified_url": "https://www.dafyomi.co.il/nidah/backgrnd/ni-in-003.htm"
+    }
+  }
+}

@@ -1,0 +1,5 @@
+data/cache/
+data/cycle.json
+fiches/*.source.json
+fiches/*.html
+fiches/*.pdf

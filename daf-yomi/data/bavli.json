@@ -1,0 +1,651 @@
+{
+  "source": "https://www.sefaria.org/api/shape/<traite>",
+  "note": "Le Talmud commence en 2a : il n'y a pas de folio 1.",
+  "n_traites": 38,
+  "n_dafim_indicatif": 2728,
+  "traites": [
+    {
+      "titre": "Berakhot",
+      "he_titre": "ברכות",
+      "nom_fr": "Berakhot",
+      "seder": "Zeraïm",
+      "ref_base": "Berakhot",
+      "yerushalmi": false,
+      "ref_style": "amudim",
+      "premier_daf": 2,
+      "dernier_daf": 64,
+      "n_amudim": 127,
+      "dafyomi": {
+        "slug": "berachos",
+        "prefix": "br"
+      },
+      "background": true
+    },
+    {
+      "titre": "Shabbat",
+      "he_titre": "שבת",
+      "nom_fr": "Chabbat",
+      "seder": "Moëd",
+      "ref_base": "Shabbat",
+      "yerushalmi": false,
+      "ref_style": "amudim",
+      "premier_daf": 2,
+      "dernier_daf": 157,
+      "n_amudim": 314,
+      "dafyomi": {
+        "slug": "shabbos",
+        "prefix": "sh"
+      },
+      "background": true
+    },
+    {
+      "titre": "Eruvin",
+      "he_titre": "עירובין",
+      "nom_fr": "Erouvin",
+      "seder": "Moëd",
+      "ref_base": "Eruvin",
+      "yerushalmi": false,
+      "ref_style": "amudim",
+      "premier_daf": 2,
+      "dernier_daf": 105,
+      "n_amudim": 209,
+      "dafyomi": {
+        "slug": "eruvin",
+        "prefix": "ev"
+      },
+      "background": true
+    },
+    {
+      "titre": "Pesachim",
+      "he_titre": "פסחים",
+      "nom_fr": "Pessa'him",
+      "seder": "Moëd",
+      "ref_base": "Pesachim",
+      "yerushalmi": false,
+      "ref_style": "amudim",
+      "premier_daf": 2,
+      "dernier_daf": 121,
+      "n_amudim": 242,
+      "dafyomi": {
+        "slug": "pesachim",
+        "prefix": "ps"
+      },
+      "background": true
+    },
+    {
+      "titre": "Shekalim",
+      "he_titre": "תלמוד ירושלמי שקלים",
+      "nom_fr": "Chekalim",
+      "seder": "Moëd",
+      "ref_base": "Jerusalem Talmud Shekalim",
+      "yerushalmi": true,
+      "ref_style": "plage",
+      "premier_daf": 2,
+      "dernier_daf": 22,
+      "n_amudim": 8,
+      "dafyomi": {
+        "slug": "shekalim",
+        "prefix": "sk"
+      },
+      "background": true
+    },
+    {
+      "titre": "Yoma",
+      "he_titre": "יומא",
+      "nom_fr": "Yoma",
+      "seder": "Moëd",
+      "ref_base": "Yoma",
+      "yerushalmi": false,
+      "ref_style": "amudim",
+      "premier_daf": 2,
+      "dernier_daf": 88,
+      "n_amudim": 175,
+      "dafyomi": {
+        "slug": "yoma",
+        "prefix": "yo"
+      },
+      "background": true
+    },
+    {
+      "titre": "Sukkah",
+      "he_titre": "סוכה",
+      "nom_fr": "Souka",
+      "seder": "Moëd",
+      "ref_base": "Sukkah",
+      "yerushalmi": false,
+      "ref_style": "amudim",
+      "premier_daf": 2,
+      "dernier_daf": 56,
+      "n_amudim": 112,
+      "dafyomi": {
+        "slug": "sukah",
+        "prefix": "su"
+      },
+      "background": true
+    },
+    {
+      "titre": "Beitzah",
+      "he_titre": "ביצה",
+      "nom_fr": "Beitsa",
+      "seder": "Moëd",
+      "ref_base": "Beitzah",
+      "yerushalmi": false,
+      "ref_style": "amudim",
+      "premier_daf": 2,
+      "dernier_daf": 40,
+      "n_amudim": 80,
+      "dafyomi": {
+        "slug": "beitzah",
+        "prefix": "bt"
+      },
+      "background": true
+    },
+    {
+      "titre": "Rosh Hashanah",
+      "he_titre": "ראש השנה",
+      "nom_fr": "Roch Hachana",
+      "seder": "Moëd",
+      "ref_base": "Rosh Hashanah",
+      "yerushalmi": false,
+      "ref_style": "amudim",
+      "premier_daf": 2,
+      "dernier_daf": 35,
+      "n_amudim": 69,
+      "dafyomi": {
+        "slug": "rhashanah",
+        "prefix": "rh"
+      },
+      "background": true
+    },
+    {
+      "titre": "Taanit",
+      "he_titre": "תענית",
+      "nom_fr": "Taanit",
+      "seder": "Moëd",
+      "ref_base": "Taanit",
+      "yerushalmi": false,
+      "ref_style": "amudim",
+      "premier_daf": 2,
+      "dernier_daf": 31,
+      "n_amudim": 61,
+      "dafyomi": {
+        "slug": "taanis",
+        "prefix": "tn"
+      },
+      "background": true
+    },
+    {
+      "titre": "Megillah",
+      "he_titre": "מגילה",
+      "nom_fr": "Meguila",
+      "seder": "Moëd",
+      "ref_base": "Megillah",
+      "yerushalmi": false,
+      "ref_style": "amudim",
+      "premier_daf": 2,
+      "dernier_daf": 32,
+      "n_amudim": 63,
+      "dafyomi": {
+        "slug": "megilah",
+        "prefix": "mg"
+      },
+      "background": true
+    },
+    {
+      "titre": "Moed Katan",
+      "he_titre": "מועד קטן",
+      "nom_fr": "Moëd Katan",
+      "seder": "Moëd",
+      "ref_base": "Moed Katan",
+      "yerushalmi": false,
+      "ref_style": "amudim",
+      "premier_daf": 2,
+      "dernier_daf": 29,
+      "n_amudim": 57,
+      "dafyomi": {
+        "slug": "mkatan",
+        "prefix": "mo"
+      },
+      "background": true
+    },
+    {
+      "titre": "Chagigah",
+      "he_titre": "חגיגה",
+      "nom_fr": "'Haguiga",
+      "seder": "Moëd",
+      "ref_base": "Chagigah",
+      "yerushalmi": false,
+      "ref_style": "amudim",
+      "premier_daf": 2,
+      "dernier_daf": 27,
+      "n_amudim": 53,
+      "dafyomi": {
+        "slug": "chagigah",
+        "prefix": "cg"
+      },
+      "background": true
+    },
+    {
+      "titre": "Yevamot",
+      "he_titre": "יבמות",
+      "nom_fr": "Yevamot",
+      "seder": "Nachim",
+      "ref_base": "Yevamot",
+      "yerushalmi": false,
+      "ref_style": "amudim",
+      "premier_daf": 2,
+      "dernier_daf": 122,
+      "n_amudim": 244,
+      "dafyomi": {
+        "slug": "yevamos",
+        "prefix": "ye"
+      },
+      "background": true
+    },
+    {
+      "titre": "Ketubot",
+      "he_titre": "כתובות",
+      "nom_fr": "Ketoubot",
+      "seder": "Nachim",
+      "ref_base": "Ketubot",
+      "yerushalmi": false,
+      "ref_style": "amudim",
+      "premier_daf": 2,
+      "dernier_daf": 112,
+      "n_amudim": 224,
+      "dafyomi": {
+        "slug": "kesuvos",
+        "prefix": "ks"
+      },
+      "background": true
+    },
+    {
+      "titre": "Nedarim",
+      "he_titre": "נדרים",
+      "nom_fr": "Nedarim",
+      "seder": "Nachim",
+      "ref_base": "Nedarim",
+      "yerushalmi": false,
+      "ref_style": "amudim",
+      "premier_daf": 2,
+      "dernier_daf": 91,
+      "n_amudim": 182,
+      "dafyomi": {
+        "slug": "nedarim",
+        "prefix": "nd"
+      },
+      "background": true
+    },
+    {
+      "titre": "Nazir",
+      "he_titre": "נזיר",
+      "nom_fr": "Nazir",
+      "seder": "Nachim",
+      "ref_base": "Nazir",
+      "yerushalmi": false,
+      "ref_style": "amudim",
+      "premier_daf": 2,
+      "dernier_daf": 66,
+      "n_amudim": 132,
+      "dafyomi": {
+        "slug": "nazir",
+        "prefix": "nz"
+      },
+      "background": true
+    },
+    {
+      "titre": "Sotah",
+      "he_titre": "סוטה",
+      "nom_fr": "Sota",
+      "seder": "Nachim",
+      "ref_base": "Sotah",
+      "yerushalmi": false,
+      "ref_style": "amudim",
+      "premier_daf": 2,
+      "dernier_daf": 49,
+      "n_amudim": 98,
+      "dafyomi": {
+        "slug": "sotah",
+        "prefix": "so"
+      },
+      "background": true
+    },
+    {
+      "titre": "Gittin",
+      "he_titre": "גיטין",
+      "nom_fr": "Guitin",
+      "seder": "Nachim",
+      "ref_base": "Gittin",
+      "yerushalmi": false,
+      "ref_style": "amudim",
+      "premier_daf": 2,
+      "dernier_daf": 90,
+      "n_amudim": 180,
+      "dafyomi": {
+        "slug": "gitin",
+        "prefix": "gi"
+      },
+      "background": true
+    },
+    {
+      "titre": "Kiddushin",
+      "he_titre": "קידושין",
+      "nom_fr": "Kidouchin",
+      "seder": "Nachim",
+      "ref_base": "Kiddushin",
+      "yerushalmi": false,
+      "ref_style": "amudim",
+      "premier_daf": 2,
+      "dernier_daf": 82,
+      "n_amudim": 164,
+      "dafyomi": {
+        "slug": "kidushin",
+        "prefix": "kd"
+      },
+      "background": true
+    },
+    {
+      "titre": "Bava Kamma",
+      "he_titre": "בבא קמא",
+      "nom_fr": "Baba Kama",
+      "seder": "Nezikin",
+      "ref_base": "Bava Kamma",
+      "yerushalmi": false,
+      "ref_style": "amudim",
+      "premier_daf": 2,
+      "dernier_daf": 119,
+      "n_amudim": 238,
+      "dafyomi": {
+        "slug": "bkama",
+        "prefix": "bk"
+      },
+      "background": true
+    },
+    {
+      "titre": "Bava Metzia",
+      "he_titre": "בבא מציעא",
+      "nom_fr": "Baba Metsia",
+      "seder": "Nezikin",
+      "ref_base": "Bava Metzia",
+      "yerushalmi": false,
+      "ref_style": "amudim",
+      "premier_daf": 2,
+      "dernier_daf": 119,
+      "n_amudim": 237,
+      "dafyomi": {
+        "slug": "bmetzia",
+        "prefix": "bm"
+      },
+      "background": true
+    },
+    {
+      "titre": "Bava Batra",
+      "he_titre": "בבא בתרא",
+      "nom_fr": "Baba Batra",
+      "seder": "Nezikin",
+      "ref_base": "Bava Batra",
+      "yerushalmi": false,
+      "ref_style": "amudim",
+      "premier_daf": 2,
+      "dernier_daf": 176,
+      "n_amudim": 352,
+      "dafyomi": {
+        "slug": "bbasra",
+        "prefix": "bb"
+      },
+      "background": true
+    },
+    {
+      "titre": "Sanhedrin",
+      "he_titre": "סנהדרין",
+      "nom_fr": "Sanhedrin",
+      "seder": "Nezikin",
+      "ref_base": "Sanhedrin",
+      "yerushalmi": false,
+      "ref_style": "amudim",
+      "premier_daf": 2,
+      "dernier_daf": 113,
+      "n_amudim": 226,
+      "dafyomi": {
+        "slug": "sanhedrin",
+        "prefix": "sn"
+      },
+      "background": true
+    },
+    {
+      "titre": "Makkot",
+      "he_titre": "מכות",
+      "nom_fr": "Makot",
+      "seder": "Nezikin",
+      "ref_base": "Makkot",
+      "yerushalmi": false,
+      "ref_style": "amudim",
+      "premier_daf": 2,
+      "dernier_daf": 24,
+      "n_amudim": 48,
+      "dafyomi": {
+        "slug": "makos",
+        "prefix": "ma"
+      },
+      "background": true
+    },
+    {
+      "titre": "Shevuot",
+      "he_titre": "שבועות",
+      "nom_fr": "Chevouot",
+      "seder": "Nezikin",
+      "ref_base": "Shevuot",
+      "yerushalmi": false,
+      "ref_style": "amudim",
+      "premier_daf": 2,
+      "dernier_daf": 49,
+      "n_amudim": 98,
+      "dafyomi": {
+        "slug": "shevuos",
+        "prefix": "sv"
+      },
+      "background": true
+    },
+    {
+      "titre": "Avodah Zarah",
+      "he_titre": "עבודה זרה",
+      "nom_fr": "Avoda Zara",
+      "seder": "Nezikin",
+      "ref_base": "Avodah Zarah",
+      "yerushalmi": false,
+      "ref_style": "amudim",
+      "premier_daf": 2,
+      "dernier_daf": 76,
+      "n_amudim": 152,
+      "dafyomi": {
+        "slug": "azarah",
+        "prefix": "az"
+      },
+      "background": true
+    },
+    {
+      "titre": "Horayot",
+      "he_titre": "הוריות",
+      "nom_fr": "Horayot",
+      "seder": "Nezikin",
+      "ref_base": "Horayot",
+      "yerushalmi": false,
+      "ref_style": "amudim",
+      "premier_daf": 2,
+      "dernier_daf": 14,
+      "n_amudim": 27,
+      "dafyomi": {
+        "slug": "horayos",
+        "prefix": "ho"
+      },
+      "background": true
+    },
+    {
+      "titre": "Zevachim",
+      "he_titre": "זבחים",
+      "nom_fr": "Zeva'him",
+      "seder": "Kodachim",
+      "ref_base": "Zevachim",
+      "yerushalmi": false,
+      "ref_style": "amudim",
+      "premier_daf": 2,
+      "dernier_daf": 120,
+      "n_amudim": 240,
+      "dafyomi": {
+        "slug": "zevachim",
+        "prefix": "zv"
+      },
+      "background": true
+    },
+    {
+      "titre": "Menachot",
+      "he_titre": "מנחות",
+      "nom_fr": "Mena'hot",
+      "seder": "Kodachim",
+      "ref_base": "Menachot",
+      "yerushalmi": false,
+      "ref_style": "amudim",
+      "premier_daf": 2,
+      "dernier_daf": 110,
+      "n_amudim": 219,
+      "dafyomi": {
+        "slug": "menachos",
+        "prefix": "mn"
+      },
+      "background": true
+    },
+    {
+      "titre": "Chullin",
+      "he_titre": "חולין",
+      "nom_fr": "'Houlin",
+      "seder": "Kodachim",
+      "ref_base": "Chullin",
+      "yerushalmi": false,
+      "ref_style": "amudim",
+      "premier_daf": 2,
+      "dernier_daf": 142,
+      "n_amudim": 283,
+      "dafyomi": {
+        "slug": "chulin",
+        "prefix": "ch"
+      },
+      "background": true
+    },
+    {
+      "titre": "Bekhorot",
+      "he_titre": "בכורות",
+      "nom_fr": "Bekhorot",
+      "seder": "Kodachim",
+      "ref_base": "Bekhorot",
+      "yerushalmi": false,
+      "ref_style": "amudim",
+      "premier_daf": 2,
+      "dernier_daf": 61,
+      "n_amudim": 121,
+      "dafyomi": {
+        "slug": "bechoros",
+        "prefix": "be"
+      },
+      "background": true
+    },
+    {
+      "titre": "Arakhin",
+      "he_titre": "ערכין",
+      "nom_fr": "Arakhin",
+      "seder": "Kodachim",
+      "ref_base": "Arakhin",
+      "yerushalmi": false,
+      "ref_style": "amudim",
+      "premier_daf": 2,
+      "dernier_daf": 34,
+      "n_amudim": 67,
+      "dafyomi": {
+        "slug": "erchin",
+        "prefix": "er"
+      },
+      "background": true
+    },
+    {
+      "titre": "Temurah",
+      "he_titre": "תמורה",
+      "nom_fr": "Temoura",
+      "seder": "Kodachim",
+      "ref_base": "Temurah",
+      "yerushalmi": false,
+      "ref_style": "amudim",
+      "premier_daf": 2,
+      "dernier_daf": 34,
+      "n_amudim": 67,
+      "dafyomi": {
+        "slug": "temurah",
+        "prefix": "tm"
+      },
+      "background": true
+    },
+    {
+      "titre": "Keritot",
+      "he_titre": "כריתות",
+      "nom_fr": "Keritot",
+      "seder": "Kodachim",
+      "ref_base": "Keritot",
+      "yerushalmi": false,
+      "ref_style": "amudim",
+      "premier_daf": 2,
+      "dernier_daf": 28,
+      "n_amudim": 56,
+      "dafyomi": {
+        "slug": "kerisus",
+        "prefix": "kr"
+      },
+      "background": true
+    },
+    {
+      "titre": "Meilah",
+      "he_titre": "מעילה",
+      "nom_fr": "Meïla",
+      "seder": "Kodachim",
+      "ref_base": "Meilah",
+      "yerushalmi": false,
+      "ref_style": "amudim",
+      "premier_daf": 2,
+      "dernier_daf": 22,
+      "n_amudim": 43,
+      "dafyomi": {
+        "slug": "meilah",
+        "prefix": "ml"
+      },
+      "background": true
+    },
+    {
+      "titre": "Tamid",
+      "he_titre": "תמיד",
+      "nom_fr": "Tamid",
+      "seder": "Kodachim",
+      "ref_base": "Tamid",
+      "yerushalmi": false,
+      "ref_style": "amudim",
+      "premier_daf": 2,
+      "dernier_daf": 33,
+      "n_amudim": 66,
+      "dafyomi": null,
+      "background": false
+    },
+    {
+      "titre": "Niddah",
+      "he_titre": "נדה",
+      "nom_fr": "Nida",
+      "seder": "Taharot",
+      "ref_base": "Niddah",
+      "yerushalmi": false,
+      "ref_style": "amudim",
+      "premier_daf": 2,
+      "dernier_daf": 73,
+      "n_amudim": 145,
+      "dafyomi": {
+        "slug": "nidah",
+        "prefix": "ni"
+      },
+      "background": true
+    }
+  ]
+}
