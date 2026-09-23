@@ -68,6 +68,70 @@ def jour(date_iso: str) -> dict | None:
     }
 
 
+def sequence(date_iso: str, jours: int) -> list[dict]:
+    """Les dafim de `jours` jours a partir de `date_iso`, calcules a partir
+    d'UN SEUL appel calendrier.
+
+    Le cycle avance d'un daf par jour sans interruption : une fois l'ancrage
+    connu, la suite se deroule en parcourant bavli.json. Interroger l'API pour
+    chaque date ferait des dizaines de requetes et provoque des reponses 429.
+    Le resultat est verifiable : `verifie_sequence()` le recoupe avec l'API sur
+    quelques points.
+    """
+    depart = jour(date_iso)
+    if not depart or not depart.get("traite"):
+        return []
+    traites = bavli()["traites"]
+    i = next((k for k, t in enumerate(traites)
+              if t["titre"] == depart["traite"]), None)
+    if i is None:
+        return []
+    out = []
+    daf, k = depart["daf"], i
+    d0 = dt.date.fromisoformat(date_iso)
+    for n in range(jours + 1):
+        if k >= len(traites):
+            break
+        t = traites[k]
+        out.append({"date": (d0 + dt.timedelta(days=n)).isoformat(),
+                    "traite": t["titre"], "traite_fr": t["nom_fr"],
+                    "seder": t["seder"], "daf": daf,
+                    "dernier_daf": t["dernier_daf"],
+                    "libelle": f"{t['titre']} {daf}"})
+        daf += 1
+        if daf > t["dernier_daf"]:
+            k += 1
+            daf = 2
+    return out
+
+
+def verifie_sequence(seq: list[dict], points: int = 2) -> dict:
+    """Recoupe la sequence calculee avec l'API sur quelques dates.
+
+    Best-effort : Sefaria limite le debit et peut repondre 429. Un
+    recoupement impossible n'est pas une erreur — il est signale comme tel,
+    il ne fait jamais echouer la commande qui l'appelle.
+    """
+    if not seq:
+        return {"etat": "vide", "ecarts": [], "verifies": 0}
+    idx = sorted({0, len(seq) // 2, len(seq) - 1})[:points + 1]
+    ecarts, ok, echecs = [], 0, 0
+    for i in idx:
+        try:
+            reel = sefaria.daf_du_jour(seq[i]["date"])
+        except Exception:
+            echecs += 1
+            continue
+        if reel and not reel.startswith(seq[i]["libelle"]):
+            ecarts.append(f"{seq[i]['date']} : calculé {seq[i]['libelle']}, "
+                          f"API {reel}")
+        else:
+            ok += 1
+    etat = ("concordant" if ok and not ecarts else
+            "ECART" if ecarts else "non recoupé (API indisponible)")
+    return {"etat": etat, "ecarts": ecarts, "verifies": ok, "echecs": echecs}
+
+
 def siyoum(force: bool = False) -> dict:
     """Trouve la derniere date du cycle en cours, par recherche bornee."""
     p = paths.data("cycle.json")

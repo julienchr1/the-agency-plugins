@@ -25,27 +25,46 @@ import paths  # noqa: E402
 API = "https://www.sefaria.org/api"
 UA = "daf-yomi-plugin/1.0 (+https://www.sefaria.org)"
 
+# Sefaria repond 429 si on l'interroge en rafale. On s'impose un intervalle
+# minimum entre deux appels reseau (le cache, lui, ne compte pas) et un
+# backoff long sur 429.
+INTERVALLE = 0.35
+_dernier_appel = 0.0
+
 
 def _cache_path(key: str) -> str:
     return os.path.join(paths.CACHE, urllib.parse.quote(key, safe="") + ".json")
 
 
 def get(path: str, *, params: dict | None = None, cache: bool = True,
-        retries: int = 3):
+        retries: int = 4):
     qs = "?" + urllib.parse.urlencode(params) if params else ""
     url = f"{API}/{path}{qs}"
     cp = _cache_path(path + qs)
     if cache and os.path.exists(cp):
         with open(cp, encoding="utf-8") as fh:
             return json.load(fh)
+    global _dernier_appel
     last = None
     for attempt in range(retries):
+        ecart = time.monotonic() - _dernier_appel
+        if ecart < INTERVALLE:
+            time.sleep(INTERVALLE - ecart)
         try:
             req = urllib.request.Request(url, headers={"User-Agent": UA})
             with urllib.request.urlopen(req, timeout=45) as resp:
                 data = json.loads(resp.read().decode("utf-8"))
+            _dernier_appel = time.monotonic()
             break
-        except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError) as exc:
+        except urllib.error.HTTPError as exc:
+            _dernier_appel = time.monotonic()
+            last = exc
+            if exc.code == 429:
+                time.sleep(5 * (attempt + 1) ** 2)
+            else:
+                time.sleep(1.5 * (attempt + 1))
+        except (urllib.error.URLError, TimeoutError) as exc:
+            _dernier_appel = time.monotonic()
             last = exc
             time.sleep(1.5 * (attempt + 1))
     else:
